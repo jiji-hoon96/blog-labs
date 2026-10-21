@@ -1,0 +1,120 @@
+{
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "measuredAt": "2026-10-21T04:27:26.364Z",
+  "report": {
+    "a-pinned-ttf": {
+      "runs": 5,
+      "fontFiles": 2,
+      "fontBytes": 6083160,
+      "cssBytes": 633,
+      "lastRun": [
+        {
+          "file": "PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLQ.ttf",
+          "status": 200,
+          "encoding": "gzip",
+          "protocol": "h3",
+          "bytes": 3023185
+        },
+        {
+          "file": "PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzg01eLQ.ttf",
+          "status": 200,
+          "encoding": "gzip",
+          "protocol": "h3",
+          "bytes": 3059975
+        }
+      ]
+    },
+    "b-google-css": {
+      "runs": 5,
+      "fontFiles": 12,
+      "fontBytes": 211600,
+      "cssBytes": 46890,
+      "lastRun": [
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.117.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 14323
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.118.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 14627
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.114.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 16115
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.116.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 16131
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.119.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 16597
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.115.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 16159
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.113.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 16395
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.109.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 17945
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5CgmG0X7twpAcuQ.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 25833
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.18.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 21537
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.107.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 18417
+        },
+        {
+          "file": "PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0DPdWuqxJFA4GNDCBYtw.110.woff2",
+          "status": 200,
+          "encoding": "",
+          "protocol": "h3",
+          "bytes": 17521
+        }
+      ]
+    }
+  }
+}
