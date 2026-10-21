@@ -27,4 +27,4 @@ python3 scripts/split-latin.py  # 라틴 Noto Sans 로 같은 분해를 한 번 
 ```
 
 `measure.mjs` 는 CDP 의 `encodedDataLength` 를 더한다. 응답 헤더를 포함해 실제로 네트워크를 지난 바이트이고, 디스크의 파일 크기가 아니다.
-Google Fonts API 를 실시간으로 걸면 응답하는 폰트 URL 형식이 요청마다 달라질 수 있어, `d-google-variable` 은 응답을 저장해 고정했다. 측정 조건을 맞추려는 것이고, 실제 서비스에서 응답을 고정하면 `a-pinned-ttf` 와 같은 문제가 생긴다.
+Google Fonts API 를 실시간으로 걸면 응답하는 폰트 URL 형식이 요청마다 달라질 수 있어, `d-google-variable` 은 응답을 저장해 고정했다. 측정 조건을 맞추려는 것이다. 실제 서비스에서 응답을 고정하면 API 가 브라우저마다 골라 주던 응답이 하나로 굳고, `a-pinned-ttf` 가 그렇게 해서 TTF 에 묶였다.
