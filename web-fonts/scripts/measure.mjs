@@ -10,7 +10,7 @@ import { tmpdir } from 'node:os';
 import { extname, join, resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const VARIANTS = ['a-pinned-ttf', 'b-sliced-woff2', 'c-full-woff2'];
+const VARIANTS = ['a-pinned-ttf', 'b-full-woff2', 'c-sliced-woff2'];
 const PAGES = ['', 'long.html'];
 const RUNS = Number(process.argv[2] ?? 5);
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';

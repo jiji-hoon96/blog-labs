@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const VARIANTS = ['a-pinned-ttf', 'b-sliced-woff2', 'c-full-woff2'];
+const VARIANTS = ['a-pinned-ttf', 'b-full-woff2', 'c-sliced-woff2'];
 
 const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
