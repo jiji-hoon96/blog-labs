@@ -10,7 +10,8 @@ import { tmpdir } from 'node:os';
 import { extname, join, resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const VARIANTS = ['a-pinned-ttf', 'b-google-css'];
+const VARIANTS = ['a-pinned-ttf', 'b-sliced-woff2', 'c-full-woff2'];
+const PAGES = ['', 'long.html'];
 const RUNS = Number(process.argv[2] ?? 5);
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.woff2': 'font/woff2' };
@@ -109,20 +110,27 @@ const server = await serve();
 const base = `http://localhost:${server.address().port}`;
 const report = {};
 for (const v of VARIANTS) {
-  const runs = [];
-  for (let i = 0; i < RUNS; i++) runs.push(await measureOnce(`${base}/${v}/`));
-  const fonts = runs.map((r) => r.filter((x) => x.type === 'Font'));
-  const css = runs.map((r) => r.filter((x) => x.type === 'Stylesheet'));
-  report[v] = {
-    runs: RUNS,
-    fontFiles: median(fonts.map((f) => f.length)),
-    fontBytes: median(fonts.map((f) => f.reduce((s, x) => s + x.bytes, 0))),
-    cssBytes: median(css.map((f) => f.reduce((s, x) => s + x.bytes, 0))),
-    lastRun: fonts.at(-1).map(({ url, status, encoding, protocol, bytes }) => ({
-      file: url.split('/').pop(), status, encoding, protocol, bytes,
-    })),
-  };
-  console.log(v, report[v].fontFiles, 'files', report[v].fontBytes, 'B');
+  for (const page of PAGES) {
+    const key = `${v}/${page || 'index.html'}`;
+    const runs = [];
+    for (let i = 0; i < RUNS; i++) runs.push(await measureOnce(`${base}/${v}/${page}`));
+    const fonts = runs.map((r) => r.filter((x) => x.type === 'Font'));
+    const css = runs.map((r) => r.filter((x) => x.type === 'Stylesheet'));
+    const totals = fonts.map((f) => f.reduce((s, x) => s + x.bytes, 0));
+    report[key] = {
+      runs: RUNS,
+      fontFiles: median(fonts.map((f) => f.length)),
+      fontBytes: median(totals),
+      fontBytesRange: [Math.min(...totals), Math.max(...totals)],
+      cssBytes: median(css.map((f) => f.reduce((s, x) => s + x.bytes, 0))),
+      // Every run's file list, so a change in what the server hands out is visible.
+      perRun: fonts.map((f) => f.map(({ url, bytes }) => `${url.split('/').pop()} ${bytes}`).sort()),
+      lastRun: fonts.at(-1).map(({ url, status, encoding, protocol, bytes }) => ({
+        file: url.split('/').pop(), status, encoding, protocol, bytes,
+      })),
+    };
+    console.log(key, report[key].fontFiles, 'files', report[key].fontBytes, 'B', report[key].fontBytesRange);
+  }
 }
 server.close();
 const out = join(ROOT, 'results', `${new Date().toISOString().slice(0, 10)}.json`);

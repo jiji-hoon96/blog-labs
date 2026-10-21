@@ -1,0 +1,15 @@
+/* Same TTF as a-pinned-ttf, converted to woff2 with fontTools. No subsetting. */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(noto-sans-kr-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(noto-sans-kr-700.woff2) format('woff2');
+}
