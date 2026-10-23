@@ -16,8 +16,12 @@
 
 A, B, C 는 같은 TTF 에서 출발하므로 A 에서 B 는 형식만, B 에서 C 는 서브셋만 바뀐다.
 
-페이지는 둘이다. `index.html` 은 문단 세 개, `long.html` 은 블로그 글 한 편의 본문이다(`node scripts/build-pages.mjs` 로 생성).
-폰트는 Noto Sans KR 400·700 이다. `b-full-woff2` 와 `c-subset-woff2` 의 폰트는 SIL OFL 1.1 이고 라이선스 파일이 두 폴더에 있다.
+`*-4w` 폴더는 같은 네 변형을 굵기 넷(300, 400, 500, 700)으로 만든 것이다(`python3 scripts/build-4w.py`). 페이지는 첫 문단을 300, 본문을 400, 소제목을 500, 제목과 굵은 글씨를 700 으로 그린다. 400 과 700 파일은 두 굵기 폴더의 것을 복사해 쓴다. fontTools 의 woff2 출력이 실행마다 수백 B 씩 달라서 다시 만들면 두 굵기 측정값이 흔들리기 때문이다.
+
+`*-4w` 폴더에는 대조군 페이지가 둘 더 있다. `*-3w.html` 은 첫 문단을 400 에 두고 소제목만 500 으로 그린 굵기 셋, `*-note.html` 은 굵기 넷이되 300 을 한 줄짜리 보조 문구에만 쓴다. `node scripts/measure.mjs 5 controls` 로 재서 `results/<날짜>-controls.json` 에 남긴다.
+
+페이지는 둘이다. `index.html` 은 제목 하나와 문단 두 개(`-4w` 는 소제목 하나를 더한다), `long.html` 은 블로그 글 한 편의 본문이다(`node scripts/build-pages.mjs` 로 생성).
+폰트는 Noto Sans KR 이다. B 와 C 폴더의 폰트는 SIL OFL 1.1 이고 라이선스 파일이 같은 폴더에 있다.
 
 ```bash
 cd web-fonts

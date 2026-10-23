@@ -7,11 +7,16 @@ import { spawn } from 'node:child_process';
 import { createServer } from 'node:http';
 import { mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { extname, join, resolve } from 'node:path';
+import { extname, join, relative, resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const VARIANTS = ['a-pinned-ttf', 'b-full-woff2', 'c-subset-woff2', 'd-google-variable'];
+const BASE = ['a-pinned-ttf', 'b-full-woff2', 'c-subset-woff2', 'd-google-variable'];
+// The -4w folders are the same variants with a page that uses four weights.
+const VARIANTS = [...BASE, ...BASE.map((v) => `${v}-4w`)];
 const PAGES = ['', 'long.html'];
+// `node scripts/measure.mjs 5 controls` measures the -4w control pages instead.
+const CONTROLS = process.argv[3] === 'controls';
+const CONTROL_PAGES = ['index-3w.html', 'long-3w.html', 'index-note.html', 'long-note.html'];
 const RUNS = Number(process.argv[2] ?? 5);
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.woff2': 'font/woff2' };
@@ -109,8 +114,8 @@ const median = (xs) => [...xs].sort((a, b) => a - b)[Math.floor(xs.length / 2)];
 const server = await serve();
 const base = `http://localhost:${server.address().port}`;
 const report = {};
-for (const v of VARIANTS) {
-  for (const page of PAGES) {
+for (const v of CONTROLS ? VARIANTS.filter((x) => x.endsWith('-4w')) : VARIANTS) {
+  for (const page of CONTROLS ? CONTROL_PAGES : PAGES) {
     const key = `${v}/${page || 'index.html'}`;
     const runs = [];
     for (let i = 0; i < RUNS; i++) runs.push(await measureOnce(`${base}/${v}/${page}`));
@@ -133,6 +138,6 @@ for (const v of VARIANTS) {
   }
 }
 server.close();
-const out = join(ROOT, 'results', `${new Date().toISOString().slice(0, 10)}.json`);
+const out = join(ROOT, 'results', `${new Date().toISOString().slice(0, 10)}${CONTROLS ? '-controls' : ''}.json`);
 writeFileSync(out, JSON.stringify({ chrome: CHROME, measuredAt: new Date().toISOString(), report }, null, 2));
-console.log('wrote', out);
+console.log('wrote', relative(process.cwd(), out));
