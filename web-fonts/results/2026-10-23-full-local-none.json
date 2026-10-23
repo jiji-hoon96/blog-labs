@@ -1,0 +1,2046 @@
+{
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "base": "http://localhost:51689",
+  "throttle": null,
+  "measuredAt": "2026-10-23T04:58:26.155Z",
+  "report": {
+    "full-a-ttf": {
+      "runs": 3,
+      "fontFiles": 11,
+      "fontBytes": 40491984,
+      "fontBytesRange": [
+        40491984,
+        40491984
+      ],
+      "cssBytes": 1923,
+      "fontsDone": 104,
+      "fontsDoneRuns": [
+        132,
+        104,
+        96
+      ],
+      "fcp": 76,
+      "lcp": 76,
+      "byFamily": {
+        "nskr": {
+          "files": 4,
+          "bytes": 24685464
+        },
+        "inter": {
+          "files": 5,
+          "bytes": 1631437
+        },
+        "serif": {
+          "files": 1,
+          "bytes": 14062742
+        },
+        "mono": {
+          "files": 1,
+          "bytes": 112341
+        }
+      },
+      "perRun": [
+        [
+          "inter-italic-400.ttf 328421",
+          "inter-normal-300.ttf 325917",
+          "inter-normal-400.ttf 324989",
+          "inter-normal-500.ttf 325473",
+          "inter-normal-700.ttf 326637",
+          "mono-normal-400.ttf 112341",
+          "nskr-normal-300.ttf 6177130",
+          "nskr-normal-400.ttf 6170910",
+          "nskr-normal-500.ttf 6168454",
+          "nskr-normal-700.ttf 6168970",
+          "serif-normal-700.ttf 14062742"
+        ],
+        [
+          "inter-italic-400.ttf 328421",
+          "inter-normal-300.ttf 325917",
+          "inter-normal-400.ttf 324989",
+          "inter-normal-500.ttf 325473",
+          "inter-normal-700.ttf 326637",
+          "mono-normal-400.ttf 112341",
+          "nskr-normal-300.ttf 6177130",
+          "nskr-normal-400.ttf 6170910",
+          "nskr-normal-500.ttf 6168454",
+          "nskr-normal-700.ttf 6168970",
+          "serif-normal-700.ttf 14062742"
+        ],
+        [
+          "inter-italic-400.ttf 328421",
+          "inter-normal-300.ttf 325917",
+          "inter-normal-400.ttf 324989",
+          "inter-normal-500.ttf 325473",
+          "inter-normal-700.ttf 326637",
+          "mono-normal-400.ttf 112341",
+          "nskr-normal-300.ttf 6177130",
+          "nskr-normal-400.ttf 6170910",
+          "nskr-normal-500.ttf 6168454",
+          "nskr-normal-700.ttf 6168970",
+          "serif-normal-700.ttf 14062742"
+        ]
+      ],
+      "lastRun": [
+        {
+          "file": "serif-normal-700.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14062742
+        },
+        {
+          "file": "inter-normal-300.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 325917
+        },
+        {
+          "file": "inter-normal-400.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 324989
+        },
+        {
+          "file": "mono-normal-400.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 112341
+        },
+        {
+          "file": "inter-normal-700.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 326637
+        },
+        {
+          "file": "inter-italic-400.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 328421
+        },
+        {
+          "file": "inter-normal-500.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 325473
+        },
+        {
+          "file": "nskr-normal-300.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 6177130
+        },
+        {
+          "file": "nskr-normal-400.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 6170910
+        },
+        {
+          "file": "nskr-normal-700.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 6168970
+        },
+        {
+          "file": "nskr-normal-500.ttf",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/ttf",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 6168454
+        }
+      ],
+      "lastRunCss": [
+        {
+          "file": "fonts.css",
+          "encoding": "",
+          "protocol": "http/1.1",
+          "bytes": 1923
+        }
+      ]
+    },
+    "full-b-woff2": {
+      "runs": 3,
+      "fontFiles": 11,
+      "fontBytes": 12039021,
+      "fontBytesRange": [
+        12039021,
+        12039021
+      ],
+      "cssBytes": 1912,
+      "fontsDone": 67,
+      "fontsDoneRuns": [
+        67,
+        85,
+        64
+      ],
+      "fcp": 76,
+      "lcp": 76,
+      "byFamily": {
+        "nskr": {
+          "files": 4,
+          "bytes": 8230456
+        },
+        "inter": {
+          "files": 5,
+          "bytes": 557623
+        },
+        "serif": {
+          "files": 1,
+          "bytes": 3213012
+        },
+        "mono": {
+          "files": 1,
+          "bytes": 37930
+        }
+      },
+      "perRun": [
+        [
+          "inter-italic-400.woff2 114239",
+          "inter-normal-300.woff2 110687",
+          "inter-normal-400.woff2 108559",
+          "inter-normal-500.woff2 111859",
+          "inter-normal-700.woff2 112279",
+          "mono-normal-400.woff2 37930",
+          "nskr-normal-300.woff2 1991300",
+          "nskr-normal-400.woff2 2053640",
+          "nskr-normal-500.woff2 2082344",
+          "nskr-normal-700.woff2 2103172",
+          "serif-normal-700.woff2 3213012"
+        ],
+        [
+          "inter-italic-400.woff2 114239",
+          "inter-normal-300.woff2 110687",
+          "inter-normal-400.woff2 108559",
+          "inter-normal-500.woff2 111859",
+          "inter-normal-700.woff2 112279",
+          "mono-normal-400.woff2 37930",
+          "nskr-normal-300.woff2 1991300",
+          "nskr-normal-400.woff2 2053640",
+          "nskr-normal-500.woff2 2082344",
+          "nskr-normal-700.woff2 2103172",
+          "serif-normal-700.woff2 3213012"
+        ],
+        [
+          "inter-italic-400.woff2 114239",
+          "inter-normal-300.woff2 110687",
+          "inter-normal-400.woff2 108559",
+          "inter-normal-500.woff2 111859",
+          "inter-normal-700.woff2 112279",
+          "mono-normal-400.woff2 37930",
+          "nskr-normal-300.woff2 1991300",
+          "nskr-normal-400.woff2 2053640",
+          "nskr-normal-500.woff2 2082344",
+          "nskr-normal-700.woff2 2103172",
+          "serif-normal-700.woff2 3213012"
+        ]
+      ],
+      "lastRun": [
+        {
+          "file": "serif-normal-700.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 3213012
+        },
+        {
+          "file": "inter-normal-300.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 110687
+        },
+        {
+          "file": "inter-normal-400.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 108559
+        },
+        {
+          "file": "mono-normal-400.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 37930
+        },
+        {
+          "file": "inter-normal-700.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 112279
+        },
+        {
+          "file": "inter-italic-400.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 114239
+        },
+        {
+          "file": "inter-normal-500.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 111859
+        },
+        {
+          "file": "nskr-normal-300.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 1991300
+        },
+        {
+          "file": "nskr-normal-400.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 2053640
+        },
+        {
+          "file": "nskr-normal-700.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 2103172
+        },
+        {
+          "file": "nskr-normal-500.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 2082344
+        }
+      ],
+      "lastRunCss": [
+        {
+          "file": "fonts.css",
+          "encoding": "",
+          "protocol": "http/1.1",
+          "bytes": 1912
+        }
+      ]
+    },
+    "full-c-subset": {
+      "runs": 3,
+      "fontFiles": 58,
+      "fontBytes": 682208,
+      "fontBytesRange": [
+        682208,
+        682208
+      ],
+      "cssBytes": 434642,
+      "fontsDone": 93,
+      "fontsDoneRuns": [
+        69,
+        93,
+        97
+      ],
+      "fcp": 124,
+      "lcp": 124,
+      "byFamily": {
+        "nskr": {
+          "files": 46,
+          "bytes": 444096
+        },
+        "inter": {
+          "files": 5,
+          "bytes": 105566
+        },
+        "serif": {
+          "files": 6,
+          "bytes": 112896
+        },
+        "mono": {
+          "files": 1,
+          "bytes": 19650
+        }
+      },
+      "perRun": [
+        [
+          "inter-italic-400-6.woff2 21858",
+          "inter-normal-300-6.woff2 20930",
+          "inter-normal-400-6.woff2 20602",
+          "inter-normal-500-6.woff2 21046",
+          "inter-normal-700-6.woff2 21130",
+          "mono-normal-400-5.woff2 19650",
+          "nskr-normal-300-115.woff2 8590",
+          "nskr-normal-300-116.woff2 8618",
+          "nskr-normal-300-117.woff2 7710",
+          "nskr-normal-300-118.woff2 7770",
+          "nskr-normal-300-119.woff2 9022",
+          "nskr-normal-400-101.woff2 14122",
+          "nskr-normal-400-103.woff2 13218",
+          "nskr-normal-400-104.woff2 15238",
+          "nskr-normal-400-105.woff2 13638",
+          "nskr-normal-400-106.woff2 13150",
+          "nskr-normal-400-107.woff2 10334",
+          "nskr-normal-400-108.woff2 10670",
+          "nskr-normal-400-109.woff2 9670",
+          "nskr-normal-400-110.woff2 9446",
+          "nskr-normal-400-111.woff2 9418",
+          "nskr-normal-400-112.woff2 8886",
+          "nskr-normal-400-113.woff2 8858",
+          "nskr-normal-400-114.woff2 8922",
+          "nskr-normal-400-115.woff2 8742",
+          "nskr-normal-400-116.woff2 8762",
+          "nskr-normal-400-117.woff2 7786",
+          "nskr-normal-400-118.woff2 7850",
+          "nskr-normal-400-119.woff2 9074",
+          "nskr-normal-400-56.woff2 11082",
+          "nskr-normal-500-110.woff2 9534",
+          "nskr-normal-500-112.woff2 9002",
+          "nskr-normal-500-113.woff2 8930",
+          "nskr-normal-500-114.woff2 8986",
+          "nskr-normal-500-115.woff2 8786",
+          "nskr-normal-500-116.woff2 8746",
+          "nskr-normal-500-117.woff2 7802",
+          "nskr-normal-500-118.woff2 7950",
+          "nskr-normal-500-119.woff2 9050",
+          "nskr-normal-700-101.woff2 14390",
+          "nskr-normal-700-107.woff2 10438",
+          "nskr-normal-700-108.woff2 10898",
+          "nskr-normal-700-109.woff2 9790",
+          "nskr-normal-700-111.woff2 9594",
+          "nskr-normal-700-112.woff2 9006",
+          "nskr-normal-700-113.woff2 8974",
+          "nskr-normal-700-114.woff2 9038",
+          "nskr-normal-700-115.woff2 8818",
+          "nskr-normal-700-116.woff2 8866",
+          "nskr-normal-700-117.woff2 7842",
+          "nskr-normal-700-118.woff2 7954",
+          "nskr-normal-700-119.woff2 9126",
+          "serif-normal-700-114.woff2 21806",
+          "serif-normal-700-116.woff2 21178",
+          "serif-normal-700-117.woff2 19174",
+          "serif-normal-700-118.woff2 16610",
+          "serif-normal-700-119.woff2 13522",
+          "serif-normal-700-123.woff2 20606"
+        ],
+        [
+          "inter-italic-400-6.woff2 21858",
+          "inter-normal-300-6.woff2 20930",
+          "inter-normal-400-6.woff2 20602",
+          "inter-normal-500-6.woff2 21046",
+          "inter-normal-700-6.woff2 21130",
+          "mono-normal-400-5.woff2 19650",
+          "nskr-normal-300-115.woff2 8590",
+          "nskr-normal-300-116.woff2 8618",
+          "nskr-normal-300-117.woff2 7710",
+          "nskr-normal-300-118.woff2 7770",
+          "nskr-normal-300-119.woff2 9022",
+          "nskr-normal-400-101.woff2 14122",
+          "nskr-normal-400-103.woff2 13218",
+          "nskr-normal-400-104.woff2 15238",
+          "nskr-normal-400-105.woff2 13638",
+          "nskr-normal-400-106.woff2 13150",
+          "nskr-normal-400-107.woff2 10334",
+          "nskr-normal-400-108.woff2 10670",
+          "nskr-normal-400-109.woff2 9670",
+          "nskr-normal-400-110.woff2 9446",
+          "nskr-normal-400-111.woff2 9418",
+          "nskr-normal-400-112.woff2 8886",
+          "nskr-normal-400-113.woff2 8858",
+          "nskr-normal-400-114.woff2 8922",
+          "nskr-normal-400-115.woff2 8742",
+          "nskr-normal-400-116.woff2 8762",
+          "nskr-normal-400-117.woff2 7786",
+          "nskr-normal-400-118.woff2 7850",
+          "nskr-normal-400-119.woff2 9074",
+          "nskr-normal-400-56.woff2 11082",
+          "nskr-normal-500-110.woff2 9534",
+          "nskr-normal-500-112.woff2 9002",
+          "nskr-normal-500-113.woff2 8930",
+          "nskr-normal-500-114.woff2 8986",
+          "nskr-normal-500-115.woff2 8786",
+          "nskr-normal-500-116.woff2 8746",
+          "nskr-normal-500-117.woff2 7802",
+          "nskr-normal-500-118.woff2 7950",
+          "nskr-normal-500-119.woff2 9050",
+          "nskr-normal-700-101.woff2 14390",
+          "nskr-normal-700-107.woff2 10438",
+          "nskr-normal-700-108.woff2 10898",
+          "nskr-normal-700-109.woff2 9790",
+          "nskr-normal-700-111.woff2 9594",
+          "nskr-normal-700-112.woff2 9006",
+          "nskr-normal-700-113.woff2 8974",
+          "nskr-normal-700-114.woff2 9038",
+          "nskr-normal-700-115.woff2 8818",
+          "nskr-normal-700-116.woff2 8866",
+          "nskr-normal-700-117.woff2 7842",
+          "nskr-normal-700-118.woff2 7954",
+          "nskr-normal-700-119.woff2 9126",
+          "serif-normal-700-114.woff2 21806",
+          "serif-normal-700-116.woff2 21178",
+          "serif-normal-700-117.woff2 19174",
+          "serif-normal-700-118.woff2 16610",
+          "serif-normal-700-119.woff2 13522",
+          "serif-normal-700-123.woff2 20606"
+        ],
+        [
+          "inter-italic-400-6.woff2 21858",
+          "inter-normal-300-6.woff2 20930",
+          "inter-normal-400-6.woff2 20602",
+          "inter-normal-500-6.woff2 21046",
+          "inter-normal-700-6.woff2 21130",
+          "mono-normal-400-5.woff2 19650",
+          "nskr-normal-300-115.woff2 8590",
+          "nskr-normal-300-116.woff2 8618",
+          "nskr-normal-300-117.woff2 7710",
+          "nskr-normal-300-118.woff2 7770",
+          "nskr-normal-300-119.woff2 9022",
+          "nskr-normal-400-101.woff2 14122",
+          "nskr-normal-400-103.woff2 13218",
+          "nskr-normal-400-104.woff2 15238",
+          "nskr-normal-400-105.woff2 13638",
+          "nskr-normal-400-106.woff2 13150",
+          "nskr-normal-400-107.woff2 10334",
+          "nskr-normal-400-108.woff2 10670",
+          "nskr-normal-400-109.woff2 9670",
+          "nskr-normal-400-110.woff2 9446",
+          "nskr-normal-400-111.woff2 9418",
+          "nskr-normal-400-112.woff2 8886",
+          "nskr-normal-400-113.woff2 8858",
+          "nskr-normal-400-114.woff2 8922",
+          "nskr-normal-400-115.woff2 8742",
+          "nskr-normal-400-116.woff2 8762",
+          "nskr-normal-400-117.woff2 7786",
+          "nskr-normal-400-118.woff2 7850",
+          "nskr-normal-400-119.woff2 9074",
+          "nskr-normal-400-56.woff2 11082",
+          "nskr-normal-500-110.woff2 9534",
+          "nskr-normal-500-112.woff2 9002",
+          "nskr-normal-500-113.woff2 8930",
+          "nskr-normal-500-114.woff2 8986",
+          "nskr-normal-500-115.woff2 8786",
+          "nskr-normal-500-116.woff2 8746",
+          "nskr-normal-500-117.woff2 7802",
+          "nskr-normal-500-118.woff2 7950",
+          "nskr-normal-500-119.woff2 9050",
+          "nskr-normal-700-101.woff2 14390",
+          "nskr-normal-700-107.woff2 10438",
+          "nskr-normal-700-108.woff2 10898",
+          "nskr-normal-700-109.woff2 9790",
+          "nskr-normal-700-111.woff2 9594",
+          "nskr-normal-700-112.woff2 9006",
+          "nskr-normal-700-113.woff2 8974",
+          "nskr-normal-700-114.woff2 9038",
+          "nskr-normal-700-115.woff2 8818",
+          "nskr-normal-700-116.woff2 8866",
+          "nskr-normal-700-117.woff2 7842",
+          "nskr-normal-700-118.woff2 7954",
+          "nskr-normal-700-119.woff2 9126",
+          "serif-normal-700-114.woff2 21806",
+          "serif-normal-700-116.woff2 21178",
+          "serif-normal-700-117.woff2 19174",
+          "serif-normal-700-118.woff2 16610",
+          "serif-normal-700-119.woff2 13522",
+          "serif-normal-700-123.woff2 20606"
+        ]
+      ],
+      "lastRun": [
+        {
+          "file": "serif-normal-700-123.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 20606
+        },
+        {
+          "file": "inter-normal-300-6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 20930
+        },
+        {
+          "file": "nskr-normal-300-119.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9022
+        },
+        {
+          "file": "nskr-normal-300-118.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7770
+        },
+        {
+          "file": "nskr-normal-300-117.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7710
+        },
+        {
+          "file": "nskr-normal-300-116.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8618
+        },
+        {
+          "file": "nskr-normal-300-115.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8590
+        },
+        {
+          "file": "inter-normal-400-6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 20602
+        },
+        {
+          "file": "mono-normal-400-5.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19650
+        },
+        {
+          "file": "nskr-normal-400-119.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9074
+        },
+        {
+          "file": "nskr-normal-400-118.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7850
+        },
+        {
+          "file": "nskr-normal-400-117.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7786
+        },
+        {
+          "file": "nskr-normal-400-116.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8762
+        },
+        {
+          "file": "nskr-normal-400-115.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8742
+        },
+        {
+          "file": "nskr-normal-400-114.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8922
+        },
+        {
+          "file": "nskr-normal-400-108.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 10670
+        },
+        {
+          "file": "nskr-normal-400-107.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 10334
+        },
+        {
+          "file": "nskr-normal-400-113.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8858
+        },
+        {
+          "file": "nskr-normal-400-112.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8886
+        },
+        {
+          "file": "nskr-normal-400-111.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9418
+        },
+        {
+          "file": "nskr-normal-400-110.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9446
+        },
+        {
+          "file": "nskr-normal-400-109.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9670
+        },
+        {
+          "file": "nskr-normal-400-104.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 15238
+        },
+        {
+          "file": "serif-normal-700-119.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13522
+        },
+        {
+          "file": "serif-normal-700-118.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16610
+        },
+        {
+          "file": "serif-normal-700-117.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19174
+        },
+        {
+          "file": "serif-normal-700-116.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21178
+        },
+        {
+          "file": "inter-normal-700-6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21130
+        },
+        {
+          "file": "nskr-normal-700-119.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9126
+        },
+        {
+          "file": "nskr-normal-700-118.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7954
+        },
+        {
+          "file": "nskr-normal-700-117.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7842
+        },
+        {
+          "file": "nskr-normal-700-114.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9038
+        },
+        {
+          "file": "nskr-normal-700-112.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9006
+        },
+        {
+          "file": "nskr-normal-700-101.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14390
+        },
+        {
+          "file": "nskr-normal-400-101.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14122
+        },
+        {
+          "file": "nskr-normal-700-116.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8866
+        },
+        {
+          "file": "nskr-normal-700-115.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8818
+        },
+        {
+          "file": "nskr-normal-700-113.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8974
+        },
+        {
+          "file": "nskr-normal-700-111.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9594
+        },
+        {
+          "file": "nskr-normal-400-105.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13638
+        },
+        {
+          "file": "nskr-normal-400-106.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13150
+        },
+        {
+          "file": "nskr-normal-400-56.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 11082
+        },
+        {
+          "file": "nskr-normal-700-107.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 10438
+        },
+        {
+          "file": "inter-italic-400-6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21858
+        },
+        {
+          "file": "serif-normal-700-114.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21806
+        },
+        {
+          "file": "inter-normal-500-6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21046
+        },
+        {
+          "file": "nskr-normal-500-119.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9050
+        },
+        {
+          "file": "nskr-normal-500-118.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7950
+        },
+        {
+          "file": "nskr-normal-500-117.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 7802
+        },
+        {
+          "file": "nskr-normal-500-115.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8786
+        },
+        {
+          "file": "nskr-normal-500-112.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9002
+        },
+        {
+          "file": "nskr-normal-400-103.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13218
+        },
+        {
+          "file": "nskr-normal-500-116.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8746
+        },
+        {
+          "file": "nskr-normal-500-114.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8986
+        },
+        {
+          "file": "nskr-normal-500-113.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 8930
+        },
+        {
+          "file": "nskr-normal-500-110.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9534
+        },
+        {
+          "file": "nskr-normal-700-109.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 9790
+        },
+        {
+          "file": "nskr-normal-700-108.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 10898
+        }
+      ],
+      "lastRunCss": [
+        {
+          "file": "fonts.css",
+          "encoding": "",
+          "protocol": "http/1.1",
+          "bytes": 434642
+        }
+      ]
+    },
+    "full-d-google": {
+      "runs": 3,
+      "fontFiles": 28,
+      "fontBytes": 580300,
+      "fontBytesRange": [
+        580300,
+        580300
+      ],
+      "cssBytes": 433560,
+      "fontsDone": 55,
+      "fontsDoneRuns": [
+        55,
+        84,
+        46
+      ],
+      "fcp": 116,
+      "lcp": 116,
+      "byFamily": {
+        "nskr": {
+          "files": 19,
+          "bytes": 371330
+        },
+        "inter": {
+          "files": 2,
+          "bytes": 73952
+        },
+        "serif": {
+          "files": 6,
+          "bytes": 113636
+        },
+        "mono": {
+          "files": 1,
+          "bytes": 21382
+        }
+      },
+      "perRun": [
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ],
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ],
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ]
+      ],
+      "lastRun": [
+        {
+          "file": "serif-0fd5d94ce3.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19634
+        },
+        {
+          "file": "mono-393a87aef6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21382
+        },
+        {
+          "file": "inter-bec94a4daf.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 48602
+        },
+        {
+          "file": "inter-9ff1d1cbcd.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 25350
+        },
+        {
+          "file": "nskr-6c394f932b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16738
+        },
+        {
+          "file": "nskr-c6a21aac0d.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14770
+        },
+        {
+          "file": "nskr-36d728434d.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14466
+        },
+        {
+          "file": "nskr-88fff278d0.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16274
+        },
+        {
+          "file": "nskr-38fed6b354.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16302
+        },
+        {
+          "file": "nskr-c104ee6168.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16258
+        },
+        {
+          "file": "nskr-f7bc888b38.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19782
+        },
+        {
+          "file": "nskr-009d99c5b9.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 18558
+        },
+        {
+          "file": "nskr-5a963d9317.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16538
+        },
+        {
+          "file": "nskr-3629000d6b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16514
+        },
+        {
+          "file": "nskr-1901ae4462.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 17502
+        },
+        {
+          "file": "nskr-95c8bf113b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 17662
+        },
+        {
+          "file": "nskr-f10e196007.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 18082
+        },
+        {
+          "file": "nskr-acb6a38031.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 29306
+        },
+        {
+          "file": "serif-18ac7036e7.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13590
+        },
+        {
+          "file": "serif-ee649ef21c.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16982
+        },
+        {
+          "file": "serif-d96d8b62f7.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19646
+        },
+        {
+          "file": "serif-ea2e25af66.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21562
+        },
+        {
+          "file": "nskr-85a398db99.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 26218
+        },
+        {
+          "file": "nskr-b5b90ded1a.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 25482
+        },
+        {
+          "file": "nskr-0823d35719.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 24906
+        },
+        {
+          "file": "nskr-69c565cca0.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21338
+        },
+        {
+          "file": "serif-b3d43c770b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 22222
+        },
+        {
+          "file": "nskr-e0e265c44c.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 24634
+        }
+      ],
+      "lastRunCss": [
+        {
+          "file": "fonts.css",
+          "encoding": "",
+          "protocol": "http/1.1",
+          "bytes": 433560
+        }
+      ]
+    },
+    "full-d-range": {
+      "runs": 3,
+      "fontFiles": 28,
+      "fontBytes": 580300,
+      "fontBytesRange": [
+        580300,
+        580300
+      ],
+      "cssBytes": 175337,
+      "fontsDone": 41,
+      "fontsDoneRuns": [
+        41,
+        35,
+        43
+      ],
+      "fcp": 120,
+      "lcp": 120,
+      "byFamily": {
+        "nskr": {
+          "files": 19,
+          "bytes": 371330
+        },
+        "inter": {
+          "files": 2,
+          "bytes": 73952
+        },
+        "serif": {
+          "files": 6,
+          "bytes": 113636
+        },
+        "mono": {
+          "files": 1,
+          "bytes": 21382
+        }
+      },
+      "perRun": [
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ],
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ],
+        [
+          "inter-9ff1d1cbcd.woff2 25350",
+          "inter-bec94a4daf.woff2 48602",
+          "mono-393a87aef6.woff2 21382",
+          "nskr-009d99c5b9.woff2 18558",
+          "nskr-0823d35719.woff2 24906",
+          "nskr-1901ae4462.woff2 17502",
+          "nskr-3629000d6b.woff2 16514",
+          "nskr-36d728434d.woff2 14466",
+          "nskr-38fed6b354.woff2 16302",
+          "nskr-5a963d9317.woff2 16538",
+          "nskr-69c565cca0.woff2 21338",
+          "nskr-6c394f932b.woff2 16738",
+          "nskr-85a398db99.woff2 26218",
+          "nskr-88fff278d0.woff2 16274",
+          "nskr-95c8bf113b.woff2 17662",
+          "nskr-acb6a38031.woff2 29306",
+          "nskr-b5b90ded1a.woff2 25482",
+          "nskr-c104ee6168.woff2 16258",
+          "nskr-c6a21aac0d.woff2 14770",
+          "nskr-e0e265c44c.woff2 24634",
+          "nskr-f10e196007.woff2 18082",
+          "nskr-f7bc888b38.woff2 19782",
+          "serif-0fd5d94ce3.woff2 19634",
+          "serif-18ac7036e7.woff2 13590",
+          "serif-b3d43c770b.woff2 22222",
+          "serif-d96d8b62f7.woff2 19646",
+          "serif-ea2e25af66.woff2 21562",
+          "serif-ee649ef21c.woff2 16982"
+        ]
+      ],
+      "lastRun": [
+        {
+          "file": "serif-0fd5d94ce3.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19634
+        },
+        {
+          "file": "mono-393a87aef6.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21382
+        },
+        {
+          "file": "inter-bec94a4daf.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 48602
+        },
+        {
+          "file": "inter-9ff1d1cbcd.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 25350
+        },
+        {
+          "file": "nskr-6c394f932b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16738
+        },
+        {
+          "file": "nskr-c6a21aac0d.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14770
+        },
+        {
+          "file": "nskr-36d728434d.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 14466
+        },
+        {
+          "file": "nskr-88fff278d0.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16274
+        },
+        {
+          "file": "nskr-38fed6b354.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16302
+        },
+        {
+          "file": "nskr-c104ee6168.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16258
+        },
+        {
+          "file": "nskr-f7bc888b38.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19782
+        },
+        {
+          "file": "nskr-009d99c5b9.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 18558
+        },
+        {
+          "file": "nskr-5a963d9317.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16538
+        },
+        {
+          "file": "nskr-3629000d6b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16514
+        },
+        {
+          "file": "nskr-1901ae4462.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 17502
+        },
+        {
+          "file": "nskr-95c8bf113b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 17662
+        },
+        {
+          "file": "nskr-f10e196007.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 18082
+        },
+        {
+          "file": "nskr-acb6a38031.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 29306
+        },
+        {
+          "file": "serif-18ac7036e7.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 13590
+        },
+        {
+          "file": "serif-ee649ef21c.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 16982
+        },
+        {
+          "file": "serif-d96d8b62f7.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 19646
+        },
+        {
+          "file": "serif-ea2e25af66.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21562
+        },
+        {
+          "file": "nskr-85a398db99.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 26218
+        },
+        {
+          "file": "nskr-b5b90ded1a.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 25482
+        },
+        {
+          "file": "nskr-0823d35719.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 24906
+        },
+        {
+          "file": "nskr-69c565cca0.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 21338
+        },
+        {
+          "file": "serif-b3d43c770b.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 22222
+        },
+        {
+          "file": "nskr-e0e265c44c.woff2",
+          "status": 200,
+          "encoding": "",
+          "contentType": "font/woff2",
+          "protocol": "http/1.1",
+          "cacheStatus": "",
+          "age": "",
+          "bytes": 24634
+        }
+      ],
+      "lastRunCss": [
+        {
+          "file": "fonts.css",
+          "encoding": "",
+          "protocol": "http/1.1",
+          "bytes": 175337
+        }
+      ]
+    }
+  }
+}
