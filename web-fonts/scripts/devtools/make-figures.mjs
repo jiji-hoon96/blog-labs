@@ -1,4 +1,4 @@
-// Shoots and annotates figures 3 to 7 of hooninedev.com/261021.
+// Shoots and annotates figures 3 to 7 of hooninedev.com/261019.
 // Mark positions come from the DevTools DOM (post-rects.js), so a reshoot
 // does not need hand-measured coordinates.
 //
