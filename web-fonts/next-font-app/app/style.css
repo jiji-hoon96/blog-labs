@@ -1,0 +1,9 @@
+/* Same rules as build-full-pages.mjs, with the family names swapped for next/font's variables. */
+body { font-family: var(--inter), var(--noto-sans), sans-serif; font-weight: 400; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.7; }
+main > p:first-of-type { font-weight: 300; }
+h1, h2 { font-family: var(--noto-serif), serif; font-weight: 700; }
+h3 { font-weight: 500; }
+strong { font-weight: 700; }
+blockquote { font-style: italic; margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid #ccc; }
+code, pre { font-family: var(--mono), var(--noto-sans), monospace; font-size: 0.9em; }
+pre { background: #f5f5f5; padding: 1rem; overflow-x: auto; line-height: 1.5; }

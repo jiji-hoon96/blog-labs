@@ -1,0 +1,111 @@
+{
+  "measuredAt": "2026-10-26T06:32:58.141Z",
+  "report": {
+    "default": {
+      "chrome": "Chrome/156.0.8078.47",
+      "visits": {
+        "deployed": {
+          "css": {
+            "responses": 1,
+            "fromCache": 0,
+            "networkBytes": 117812
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 0,
+            "networkBytes": 576461
+          }
+        },
+        "deployed again": {
+          "css": {
+            "responses": 1,
+            "fromCache": 1,
+            "networkBytes": 0
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 28,
+            "networkBytes": 0
+          }
+        },
+        "localhost": {
+          "css": {
+            "responses": 1,
+            "fromCache": 0,
+            "networkBytes": 117794
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 0,
+            "networkBytes": 576434
+          }
+        },
+        "localhost again": {
+          "css": {
+            "responses": 1,
+            "fromCache": 1,
+            "networkBytes": 0
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 28,
+            "networkBytes": 0
+          }
+        }
+      }
+    },
+    "partitioning off": {
+      "chrome": "Chrome/156.0.8078.47",
+      "visits": {
+        "deployed": {
+          "css": {
+            "responses": 1,
+            "fromCache": 0,
+            "networkBytes": 117785
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 0,
+            "networkBytes": 576467
+          }
+        },
+        "deployed again": {
+          "css": {
+            "responses": 1,
+            "fromCache": 1,
+            "networkBytes": 0
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 28,
+            "networkBytes": 0
+          }
+        },
+        "localhost": {
+          "css": {
+            "responses": 1,
+            "fromCache": 1,
+            "networkBytes": 0
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 28,
+            "networkBytes": 0
+          }
+        },
+        "localhost again": {
+          "css": {
+            "responses": 1,
+            "fromCache": 1,
+            "networkBytes": 0
+          },
+          "fonts": {
+            "responses": 28,
+            "fromCache": 28,
+            "networkBytes": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4243 @@
+{
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "base": "https://hooninedev-web-fonts.netlify.app",
+  "throttle": {
+    "latency": 165,
+    "downloadKbps": 8100,
+    "uploadKbps": 1350
+  },
+  "measuredAt": "2026-10-26T06:32:07.253Z",
+  "report": {
+    "full-d-google/": {
+      "runs": 9,
+      "fontFiles": 28,
+      "fontBytes": 578823,
+      "cssBytes": 107337,
+      "fontsDone": 2443,
+      "fontsDoneRuns": [
+        2995,
+        2214,
+        2442,
+        4953,
+        2475,
+        2443,
+        3160,
+        2358,
+        2013
+      ],
+      "fcp": 1540,
+      "fcpRuns": [
+        2048,
+        1300,
+        1536,
+        2896,
+        1612,
+        1540,
+        2220,
+        1428,
+        1304
+      ],
+      "lcp": 1540,
+      "cls": 0.0182,
+      "clsRuns": [
+        0.0185,
+        0.0219,
+        0.0182,
+        0.0178,
+        0.0185,
+        0.0171,
+        0.0185,
+        0.0175,
+        0.0176
+      ],
+      "lastFonts": [
+        "hooninedev-web-fonts.netlify.app inter-italic-latin.woff2 25295",
+        "hooninedev-web-fonts.netlify.app inter-latin.woff2 48556",
+        "hooninedev-web-fonts.netlify.app mono-latin.woff2 21328",
+        "hooninedev-web-fonts.netlify.app nskr-101.woff2 26163",
+        "hooninedev-web-fonts.netlify.app nskr-103.woff2 24579",
+        "hooninedev-web-fonts.netlify.app nskr-104.woff2 29251",
+        "hooninedev-web-fonts.netlify.app nskr-105.woff2 25428",
+        "hooninedev-web-fonts.netlify.app nskr-106.woff2 24851",
+        "hooninedev-web-fonts.netlify.app nskr-107.woff2 18543",
+        "hooninedev-web-fonts.netlify.app nskr-108.woff2 19718",
+        "hooninedev-web-fonts.netlify.app nskr-109.woff2 18019",
+        "hooninedev-web-fonts.netlify.app nskr-110.woff2 17599",
+        "hooninedev-web-fonts.netlify.app nskr-111.woff2 17439",
+        "hooninedev-web-fonts.netlify.app nskr-112.woff2 16451",
+        "hooninedev-web-fonts.netlify.app nskr-113.woff2 16474",
+        "hooninedev-web-fonts.netlify.app nskr-114.woff2 16222",
+        "hooninedev-web-fonts.netlify.app nskr-115.woff2 16300",
+        "hooninedev-web-fonts.netlify.app nskr-116.woff2 16209",
+        "hooninedev-web-fonts.netlify.app nskr-117.woff2 14406",
+        "hooninedev-web-fonts.netlify.app nskr-118.woff2 14707",
+        "hooninedev-web-fonts.netlify.app nskr-119.woff2 16674",
+        "hooninedev-web-fonts.netlify.app nskr-56.woff2 21282",
+        "hooninedev-web-fonts.netlify.app serif-114.woff2 22166",
+        "hooninedev-web-fonts.netlify.app serif-116.woff2 21506",
+        "hooninedev-web-fonts.netlify.app serif-117.woff2 19583",
+        "hooninedev-web-fonts.netlify.app serif-118.woff2 16917",
+        "hooninedev-web-fonts.netlify.app serif-119.woff2 13580",
+        "hooninedev-web-fonts.netlify.app serif-latin.woff2 19610"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 578823,
+          "cssBytes": 107489,
+          "fontsDone": 2995,
+          "fontPhases": {
+            "requested": 2008,
+            "queued": 0,
+            "waiting": 494,
+            "downloading": 492
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 42,
+              "connect": 237,
+              "tls": 161,
+              "requests": 32
+            }
+          },
+          "fcp": 2048,
+          "lcp": 2048,
+          "cls": 0.0185,
+          "shifts": [
+            [
+              2385,
+              0.0002
+            ],
+            [
+              2530,
+              0.0006
+            ],
+            [
+              2548,
+              0.0084
+            ],
+            [
+              2956,
+              0.0009
+            ],
+            [
+              2971,
+              0.0084
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578810,
+          "cssBytes": 107311,
+          "fontsDone": 2214,
+          "fontPhases": {
+            "requested": 1252,
+            "queued": 0,
+            "waiting": 679,
+            "downloading": 283
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 37,
+              "connect": 146,
+              "tls": 75,
+              "requests": 32
+            }
+          },
+          "fcp": 1300,
+          "lcp": 1300,
+          "cls": 0.0219,
+          "shifts": [
+            [
+              1665,
+              0.0002
+            ],
+            [
+              1699,
+              0.0008
+            ],
+            [
+              1851,
+              0.0139
+            ],
+            [
+              2190,
+              0.0069
+            ],
+            [
+              2213,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578859,
+          "cssBytes": 107330,
+          "fontsDone": 2442,
+          "fontPhases": {
+            "requested": 1495,
+            "queued": 0,
+            "waiting": 582,
+            "downloading": 364
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 37,
+              "connect": 148,
+              "tls": 73,
+              "requests": 32
+            }
+          },
+          "fcp": 1536,
+          "lcp": 1536,
+          "cls": 0.0182,
+          "shifts": [
+            [
+              1865,
+              0.0006
+            ],
+            [
+              2036,
+              0.0089
+            ],
+            [
+              2075,
+              0.0008
+            ],
+            [
+              2094,
+              0.0002
+            ],
+            [
+              2273,
+              0.0075
+            ],
+            [
+              2283,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578977,
+          "cssBytes": 107318,
+          "fontsDone": 4953,
+          "fontPhases": {
+            "requested": 2857,
+            "queued": 145,
+            "waiting": 1929,
+            "downloading": 22
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 63,
+              "connect": 146,
+              "tls": 75,
+              "requests": 32
+            }
+          },
+          "fcp": 2896,
+          "lcp": 2896,
+          "cls": 0.0178,
+          "shifts": [
+            [
+              3563,
+              0.0006
+            ],
+            [
+              3634,
+              0.0002
+            ],
+            [
+              4125,
+              0.0093
+            ],
+            [
+              4343,
+              0.0008
+            ],
+            [
+              4369,
+              0.0067
+            ],
+            [
+              4973,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578810,
+          "cssBytes": 107472,
+          "fontsDone": 2475,
+          "fontPhases": {
+            "requested": 1552,
+            "queued": 0,
+            "waiting": 387,
+            "downloading": 536
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 9,
+              "connect": 149,
+              "tls": 77,
+              "requests": 32
+            }
+          },
+          "fcp": 1612,
+          "lcp": 1612,
+          "cls": 0.0185,
+          "shifts": [
+            [
+              1920,
+              0.0006
+            ],
+            [
+              1942,
+              0.0002
+            ],
+            [
+              2044,
+              0.0001
+            ],
+            [
+              2070,
+              0.0083
+            ],
+            [
+              2342,
+              0.0009
+            ],
+            [
+              2356,
+              0.0084
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578804,
+          "cssBytes": 107368,
+          "fontsDone": 2443,
+          "fontPhases": {
+            "requested": 1492,
+            "queued": 0,
+            "waiting": 583,
+            "downloading": 368
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 8,
+              "connect": 213,
+              "tls": 140,
+              "requests": 32
+            }
+          },
+          "fcp": 1540,
+          "lcp": 1540,
+          "cls": 0.0171,
+          "shifts": [
+            [
+              1873,
+              0.009
+            ],
+            [
+              2057,
+              0.0007
+            ],
+            [
+              2226,
+              0.0002
+            ],
+            [
+              2312,
+              0.0004
+            ],
+            [
+              2351,
+              0.0002
+            ],
+            [
+              2397,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578849,
+          "cssBytes": 107415,
+          "fontsDone": 3160,
+          "fontPhases": {
+            "requested": 2185,
+            "queued": 0,
+            "waiting": 656,
+            "downloading": 319
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 32,
+              "connect": 202,
+              "tls": 76,
+              "requests": 32
+            }
+          },
+          "fcp": 2220,
+          "lcp": 2220,
+          "cls": 0.0185,
+          "shifts": [
+            [
+              2555,
+              0.0002
+            ],
+            [
+              2590,
+              0.0002
+            ],
+            [
+              2889,
+              0.0108
+            ],
+            [
+              2944,
+              0.0006
+            ],
+            [
+              2958,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578785,
+          "cssBytes": 107337,
+          "fontsDone": 2358,
+          "fontPhases": {
+            "requested": 1362,
+            "queued": 0,
+            "waiting": 459,
+            "downloading": 536
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 147,
+              "tls": 74,
+              "requests": 32
+            }
+          },
+          "fcp": 1428,
+          "lcp": 1428,
+          "cls": 0.0175,
+          "shifts": [
+            [
+              1694,
+              0.0006
+            ],
+            [
+              1831,
+              0.0002
+            ],
+            [
+              2076,
+              0.0088
+            ],
+            [
+              2133,
+              0.0008
+            ],
+            [
+              2150,
+              0.0002
+            ],
+            [
+              2177,
+              0.0067
+            ],
+            [
+              2285,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 578856,
+          "cssBytes": 107250,
+          "fontsDone": 2013,
+          "fontPhases": {
+            "requested": 1256,
+            "queued": 0,
+            "waiting": 435,
+            "downloading": 320
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 6,
+              "connect": 150,
+              "tls": 78,
+              "requests": 32
+            }
+          },
+          "fcp": 1304,
+          "lcp": 1304,
+          "cls": 0.0176,
+          "shifts": [
+            [
+              1523,
+              0.0095
+            ],
+            [
+              1542,
+              0.0002
+            ],
+            [
+              1852,
+              0.0008
+            ],
+            [
+              1866,
+              0.0002
+            ],
+            [
+              1906,
+              0.0067
+            ],
+            [
+              1974,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "full-d-live/": {
+      "runs": 9,
+      "fontFiles": 28,
+      "fontBytes": 576464,
+      "cssBytes": 117794,
+      "fontsDone": 1962,
+      "fontsDoneRuns": [
+        2180,
+        2311,
+        1765,
+        1883,
+        2054,
+        2067,
+        1895,
+        1962,
+        1740
+      ],
+      "fcp": 1164,
+      "fcpRuns": [
+        1468,
+        976,
+        1084,
+        1164,
+        1336,
+        1348,
+        1156,
+        1256,
+        1024
+      ],
+      "lcp": 1164,
+      "cls": 0.0192,
+      "clsRuns": [
+        0.0174,
+        0.0206,
+        0.0195,
+        0.0209,
+        0.0192,
+        0.0187,
+        0.0181,
+        0.0208,
+        0.0185
+      ],
+      "lastFonts": [
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 13457",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 16841",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 19493",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 19505",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 21421",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 22091",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 14323",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 14627",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16122",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16131",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16159",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16375",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16395",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16597",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17367",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17521",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17949",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 18417",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 19649",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 21205",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 24501",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 24775",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 25349",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 26077",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 29173",
+        "fonts.gstatic.com UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5 48464",
+        "fonts.gstatic.com UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLh 25217",
+        "fonts.gstatic.com tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8 21249"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 576464,
+          "cssBytes": 117794,
+          "fontsDone": 2180,
+          "fontPhases": {
+            "requested": 1407,
+            "queued": 0,
+            "waiting": 174,
+            "downloading": 599
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 9,
+              "connect": 150,
+              "tls": 77,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 923,
+              "dns": 5,
+              "connect": 181,
+              "tls": 55,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1406,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1468,
+          "lcp": 1468,
+          "cls": 0.0174,
+          "shifts": [
+            [
+              1757,
+              0.009
+            ],
+            [
+              1816,
+              0.0011
+            ],
+            [
+              1828,
+              0.0002
+            ],
+            [
+              1846,
+              0.0002
+            ],
+            [
+              1912,
+              0.0067
+            ],
+            [
+              2140,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576443,
+          "cssBytes": 117794,
+          "fontsDone": 2311,
+          "fontPhases": {
+            "requested": 934,
+            "queued": 0,
+            "waiting": 1305,
+            "downloading": 71
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 44,
+              "connect": 192,
+              "tls": 77,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 447,
+              "dns": 19,
+              "connect": 154,
+              "tls": 55,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 930,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 976,
+          "lcp": 976,
+          "cls": 0.0206,
+          "shifts": [
+            [
+              1272,
+              0.0006
+            ],
+            [
+              1329,
+              0.0002
+            ],
+            [
+              1550,
+              0.0001
+            ],
+            [
+              1702,
+              0.0088
+            ],
+            [
+              1756,
+              0.0108
+            ],
+            [
+              2014,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576468,
+          "cssBytes": 117803,
+          "fontsDone": 1765,
+          "fontPhases": {
+            "requested": 1012,
+            "queued": 0,
+            "waiting": 169,
+            "downloading": 584
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 40,
+              "connect": 169,
+              "tls": 85,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 600,
+              "dns": 12,
+              "connect": 96,
+              "tls": 47,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1012,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1084,
+          "lcp": 1084,
+          "cls": 0.0195,
+          "shifts": [
+            [
+              1527,
+              0.009
+            ],
+            [
+              1562,
+              0.0016
+            ],
+            [
+              1582,
+              0.0087
+            ],
+            [
+              1590,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576464,
+          "cssBytes": 117803,
+          "fontsDone": 1883,
+          "fontPhases": {
+            "requested": 1112,
+            "queued": 0,
+            "waiting": 167,
+            "downloading": 603
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 11,
+              "connect": 148,
+              "tls": 77,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 727,
+              "dns": 5,
+              "connect": 82,
+              "tls": 47,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1112,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1164,
+          "lcp": 1164,
+          "cls": 0.0209,
+          "shifts": [
+            [
+              1624,
+              0.0002
+            ],
+            [
+              1676,
+              0.0006
+            ],
+            [
+              1727,
+              0.0001
+            ],
+            [
+              1762,
+              0.0114
+            ],
+            [
+              1800,
+              0.0085
+            ],
+            [
+              1819,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576452,
+          "cssBytes": 117803,
+          "fontsDone": 2054,
+          "fontPhases": {
+            "requested": 1283,
+            "queued": 0,
+            "waiting": 233,
+            "downloading": 538
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 38,
+              "connect": 231,
+              "tls": 75,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 890,
+              "dns": 7,
+              "connect": 89,
+              "tls": 52,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1282,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1336,
+          "lcp": 1336,
+          "cls": 0.0192,
+          "shifts": [
+            [
+              1767,
+              0.0006
+            ],
+            [
+              1841,
+              0.0083
+            ],
+            [
+              1885,
+              0.0019
+            ],
+            [
+              1928,
+              0.0084
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576464,
+          "cssBytes": 117794,
+          "fontsDone": 2067,
+          "fontPhases": {
+            "requested": 1291,
+            "queued": 0,
+            "waiting": 257,
+            "downloading": 519
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 39,
+              "connect": 148,
+              "tls": 76,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 813,
+              "dns": 6,
+              "connect": 169,
+              "tls": 50,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1290,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1348,
+          "lcp": 1348,
+          "cls": 0.0187,
+          "shifts": [
+            [
+              1715,
+              0.009
+            ],
+            [
+              1740,
+              0.0007
+            ],
+            [
+              1781,
+              0.0087
+            ],
+            [
+              1871,
+              0.0002
+            ],
+            [
+              2021,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576472,
+          "cssBytes": 117767,
+          "fontsDone": 1895,
+          "fontPhases": {
+            "requested": 1104,
+            "queued": 19,
+            "waiting": 269,
+            "downloading": 502
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 105,
+              "connect": 145,
+              "tls": 74,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 712,
+              "dns": 6,
+              "connect": 89,
+              "tls": 52,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1104,
+              "dns": 0,
+              "connect": 18,
+              "tls": 18,
+              "requests": 28
+            }
+          },
+          "fcp": 1156,
+          "lcp": 1156,
+          "cls": 0.0181,
+          "shifts": [
+            [
+              1708,
+              0.0006
+            ],
+            [
+              1741,
+              0.0098
+            ],
+            [
+              1781,
+              0.0007
+            ],
+            [
+              1799,
+              0.0067
+            ],
+            [
+              1869,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576457,
+          "cssBytes": 117800,
+          "fontsDone": 1962,
+          "fontPhases": {
+            "requested": 1191,
+            "queued": 0,
+            "waiting": 307,
+            "downloading": 464
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 37,
+              "connect": 197,
+              "tls": 122,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 675,
+              "dns": 6,
+              "connect": 211,
+              "tls": 159,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1191,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1256,
+          "lcp": 1256,
+          "cls": 0.0208,
+          "shifts": [
+            [
+              1570,
+              0.0008
+            ],
+            [
+              1668,
+              0.0002
+            ],
+            [
+              1847,
+              0.0111
+            ],
+            [
+              1877,
+              0.0001
+            ],
+            [
+              1895,
+              0.0085
+            ],
+            [
+              1914,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576450,
+          "cssBytes": 117794,
+          "fontsDone": 1740,
+          "fontPhases": {
+            "requested": 966,
+            "queued": 0,
+            "waiting": 172,
+            "downloading": 601
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 4,
+              "connect": 147,
+              "tls": 75,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 505,
+              "dns": 7,
+              "connect": 161,
+              "tls": 128,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 966,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1024,
+          "lcp": 1024,
+          "cls": 0.0185,
+          "shifts": [
+            [
+              1417,
+              0.009
+            ],
+            [
+              1438,
+              0.0007
+            ],
+            [
+              1500,
+              0.0085
+            ],
+            [
+              1511,
+              0.0002
+            ],
+            [
+              1694,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "full-d-live-preconnect/": {
+      "runs": 9,
+      "fontFiles": 28,
+      "fontBytes": 576461,
+      "cssBytes": 117803,
+      "fontsDone": 1816,
+      "fontsDoneRuns": [
+        1792,
+        1741,
+        1867,
+        1934,
+        1816,
+        1780,
+        1922,
+        1716,
+        1962
+      ],
+      "fcp": 1100,
+      "fcpRuns": [
+        1092,
+        1012,
+        1172,
+        1212,
+        1100,
+        1064,
+        1204,
+        988,
+        1244
+      ],
+      "lcp": 1100,
+      "cls": 0.0191,
+      "clsRuns": [
+        0.0216,
+        0.0174,
+        0.0191,
+        0.0174,
+        0.0178,
+        0.0186,
+        0.022,
+        0.0209,
+        0.0213
+      ],
+      "lastFonts": [
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 13455",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 16841",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 19493",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 19513",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 21432",
+        "fonts.gstatic.com 3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOncgB 22092",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 14331",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 14635",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16123",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16139",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16167",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16371",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16406",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 16605",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17367",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17525",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 17941",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 18417",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 19641",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 21205",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 24493",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 24765",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 25341",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 26085",
+        "fonts.gstatic.com PbykFmXiEBPT4ITbgNA5Cgm203Tq4JJWq209pU0D 29165",
+        "fonts.gstatic.com UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5 48464",
+        "fonts.gstatic.com UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLh 25217",
+        "fonts.gstatic.com tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8 21249"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 576459,
+          "cssBytes": 117803,
+          "fontsDone": 1792,
+          "fontPhases": {
+            "requested": 1044,
+            "queued": 0,
+            "waiting": 363,
+            "downloading": 384
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 4,
+              "connect": 146,
+              "tls": 74,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 637,
+              "dns": 7,
+              "connect": 94,
+              "tls": 56,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1037,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1092,
+          "lcp": 1092,
+          "cls": 0.0216,
+          "shifts": [
+            [
+              1312,
+              0.0002
+            ],
+            [
+              1629,
+              0.0006
+            ],
+            [
+              1720,
+              0.0122
+            ],
+            [
+              1764,
+              0.0085
+            ],
+            [
+              1773,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576464,
+          "cssBytes": 117803,
+          "fontsDone": 1741,
+          "fontPhases": {
+            "requested": 970,
+            "queued": 0,
+            "waiting": 344,
+            "downloading": 427
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 41,
+              "connect": 164,
+              "tls": 91,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 571,
+              "dns": 7,
+              "connect": 89,
+              "tls": 52,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 970,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1012,
+          "lcp": 1012,
+          "cls": 0.0174,
+          "shifts": [
+            [
+              1278,
+              0.009
+            ],
+            [
+              1308,
+              0.0008
+            ],
+            [
+              1323,
+              0.0006
+            ],
+            [
+              1337,
+              0.0067
+            ],
+            [
+              1588,
+              0.0002
+            ],
+            [
+              1722,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576450,
+          "cssBytes": 117803,
+          "fontsDone": 1867,
+          "fontPhases": {
+            "requested": 1113,
+            "queued": 0,
+            "waiting": 226,
+            "downloading": 527
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 11,
+              "connect": 155,
+              "tls": 78,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 690,
+              "dns": 7,
+              "connect": 91,
+              "tls": 52,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1112,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1172,
+          "lcp": 1172,
+          "cls": 0.0191,
+          "shifts": [
+            [
+              1617,
+              0.009
+            ],
+            [
+              1646,
+              0.0015
+            ],
+            [
+              1774,
+              0.0085
+            ],
+            [
+              1782,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576449,
+          "cssBytes": 117803,
+          "fontsDone": 1934,
+          "fontPhases": {
+            "requested": 1161,
+            "queued": 0,
+            "waiting": 473,
+            "downloading": 299
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 235,
+              "tls": 162,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 707,
+              "dns": 7,
+              "connect": 149,
+              "tls": 116,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1161,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1212,
+          "lcp": 1212,
+          "cls": 0.0174,
+          "shifts": [
+            [
+              1414,
+              0.009
+            ],
+            [
+              1431,
+              0.0013
+            ],
+            [
+              1443,
+              0.0002
+            ],
+            [
+              1468,
+              0.0067
+            ],
+            [
+              1901,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576472,
+          "cssBytes": 117803,
+          "fontsDone": 1816,
+          "fontPhases": {
+            "requested": 1063,
+            "queued": 0,
+            "waiting": 308,
+            "downloading": 444
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 6,
+              "connect": 199,
+              "tls": 107,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 624,
+              "dns": 21,
+              "connect": 99,
+              "tls": 51,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1062,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1100,
+          "lcp": 1100,
+          "cls": 0.0178,
+          "shifts": [
+            [
+              1111,
+              0.0002
+            ],
+            [
+              1310,
+              0.0095
+            ],
+            [
+              1393,
+              0.0002
+            ],
+            [
+              1648,
+              0.0001
+            ],
+            [
+              1663,
+              0.0009
+            ],
+            [
+              1676,
+              0.0067
+            ],
+            [
+              1721,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576454,
+          "cssBytes": 117803,
+          "fontsDone": 1780,
+          "fontPhases": {
+            "requested": 1006,
+            "queued": 0,
+            "waiting": 328,
+            "downloading": 446
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 42,
+              "connect": 157,
+              "tls": 85,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 592,
+              "dns": 8,
+              "connect": 97,
+              "tls": 59,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1006,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1064,
+          "lcp": 1064,
+          "cls": 0.0186,
+          "shifts": [
+            [
+              1483,
+              0.0002
+            ],
+            [
+              1556,
+              0.0006
+            ],
+            [
+              1659,
+              0.0083
+            ],
+            [
+              1679,
+              0.0007
+            ],
+            [
+              1706,
+              0.0001
+            ],
+            [
+              1723,
+              0.0085
+            ],
+            [
+              1733,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576466,
+          "cssBytes": 117803,
+          "fontsDone": 1922,
+          "fontPhases": {
+            "requested": 1152,
+            "queued": 0,
+            "waiting": 168,
+            "downloading": 602
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 42,
+              "connect": 147,
+              "tls": 75,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 768,
+              "dns": 4,
+              "connect": 88,
+              "tls": 50,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1152,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1204,
+          "lcp": 1204,
+          "cls": 0.022,
+          "shifts": [
+            [
+              1693,
+              0.0002
+            ],
+            [
+              1716,
+              0.0132
+            ],
+            [
+              1802,
+              0.0085
+            ],
+            [
+              1858,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576461,
+          "cssBytes": 117794,
+          "fontsDone": 1716,
+          "fontPhases": {
+            "requested": 945,
+            "queued": 0,
+            "waiting": 223,
+            "downloading": 547
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 3,
+              "connect": 144,
+              "tls": 73,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 566,
+              "dns": 9,
+              "connect": 80,
+              "tls": 45,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 945,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 988,
+          "lcp": 988,
+          "cls": 0.0209,
+          "shifts": [
+            [
+              1458,
+              0.0002
+            ],
+            [
+              1528,
+              0.0006
+            ],
+            [
+              1553,
+              0.0001
+            ],
+            [
+              1582,
+              0.0114
+            ],
+            [
+              1623,
+              0.0085
+            ],
+            [
+              1658,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 576478,
+          "cssBytes": 117800,
+          "fontsDone": 1962,
+          "fontPhases": {
+            "requested": 1194,
+            "queued": 0,
+            "waiting": 420,
+            "downloading": 347
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 4,
+              "connect": 159,
+              "tls": 76,
+              "requests": 3
+            },
+            "fonts.googleapis.com": {
+              "firstStart": 758,
+              "dns": 24,
+              "connect": 118,
+              "tls": 71,
+              "requests": 1
+            },
+            "fonts.gstatic.com": {
+              "firstStart": 1191,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 28
+            }
+          },
+          "fcp": 1244,
+          "lcp": 1244,
+          "cls": 0.0213,
+          "shifts": [
+            [
+              1643,
+              0.0006
+            ],
+            [
+              1683,
+              0.0002
+            ],
+            [
+              1846,
+              0.0001
+            ],
+            [
+              1883,
+              0.0119
+            ],
+            [
+              1924,
+              0.0085
+            ]
+          ],
+          "faces": {
+            "unloaded": 573,
+            "loaded": 88
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "fonts.gstatic.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "full-d-google/optional.html": {
+      "runs": 9,
+      "fontFiles": 28,
+      "fontBytes": 578846,
+      "cssBytes": 107503,
+      "fontsDone": 2478,
+      "fontsDoneRuns": [
+        2094,
+        2807,
+        2721,
+        2218,
+        1892,
+        3034,
+        2478,
+        1564,
+        2658
+      ],
+      "fcp": 1392,
+      "fcpRuns": [
+        1392,
+        2096,
+        2020,
+        1248,
+        872,
+        1676,
+        1272,
+        848,
+        1560
+      ],
+      "lcp": 1392,
+      "cls": 0,
+      "clsRuns": [
+        0,
+        0,
+        0,
+        0,
+        0.0002,
+        0,
+        0,
+        0.0002,
+        0
+      ],
+      "lastFonts": [
+        "hooninedev-web-fonts.netlify.app inter-italic-latin.woff2 25294",
+        "hooninedev-web-fonts.netlify.app inter-latin.woff2 48595",
+        "hooninedev-web-fonts.netlify.app mono-latin.woff2 21327",
+        "hooninedev-web-fonts.netlify.app nskr-101.woff2 26195",
+        "hooninedev-web-fonts.netlify.app nskr-103.woff2 24578",
+        "hooninedev-web-fonts.netlify.app nskr-104.woff2 29251",
+        "hooninedev-web-fonts.netlify.app nskr-105.woff2 25433",
+        "hooninedev-web-fonts.netlify.app nskr-106.woff2 24851",
+        "hooninedev-web-fonts.netlify.app nskr-107.woff2 18495",
+        "hooninedev-web-fonts.netlify.app nskr-108.woff2 19726",
+        "hooninedev-web-fonts.netlify.app nskr-109.woff2 18019",
+        "hooninedev-web-fonts.netlify.app nskr-110.woff2 17598",
+        "hooninedev-web-fonts.netlify.app nskr-111.woff2 17438",
+        "hooninedev-web-fonts.netlify.app nskr-112.woff2 16450",
+        "hooninedev-web-fonts.netlify.app nskr-113.woff2 16474",
+        "hooninedev-web-fonts.netlify.app nskr-114.woff2 16194",
+        "hooninedev-web-fonts.netlify.app nskr-115.woff2 16238",
+        "hooninedev-web-fonts.netlify.app nskr-116.woff2 16209",
+        "hooninedev-web-fonts.netlify.app nskr-117.woff2 14401",
+        "hooninedev-web-fonts.netlify.app nskr-118.woff2 14706",
+        "hooninedev-web-fonts.netlify.app nskr-119.woff2 16747",
+        "hooninedev-web-fonts.netlify.app nskr-56.woff2 21282",
+        "hooninedev-web-fonts.netlify.app serif-114.woff2 22199",
+        "hooninedev-web-fonts.netlify.app serif-116.woff2 21506",
+        "hooninedev-web-fonts.netlify.app serif-117.woff2 19582",
+        "hooninedev-web-fonts.netlify.app serif-118.woff2 16917",
+        "hooninedev-web-fonts.netlify.app serif-119.woff2 13525",
+        "hooninedev-web-fonts.netlify.app serif-latin.woff2 19570"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 578802,
+          "cssBytes": 107496,
+          "fontsDone": 2094,
+          "fontPhases": {
+            "requested": 1334,
+            "queued": 0,
+            "waiting": 173,
+            "downloading": 587
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 27,
+              "connect": 151,
+              "tls": 76,
+              "requests": 32
+            }
+          },
+          "fcp": 1392,
+          "lcp": 1392,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 587,
+            "loaded": 74
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 578820,
+          "cssBytes": 107502,
+          "fontsDone": 2807,
+          "fontPhases": {
+            "requested": 2035,
+            "queued": 0,
+            "waiting": 170,
+            "downloading": 601
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 86,
+              "connect": 149,
+              "tls": 77,
+              "requests": 32
+            }
+          },
+          "fcp": 2096,
+          "lcp": 2096,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 587,
+            "loaded": 74
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 578846,
+          "cssBytes": 107726,
+          "fontsDone": 2721,
+          "fontPhases": {
+            "requested": 1964,
+            "queued": 0,
+            "waiting": 170,
+            "downloading": 587
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 62,
+              "connect": 159,
+              "tls": 76,
+              "requests": 32
+            }
+          },
+          "fcp": 2020,
+          "lcp": 2020,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 587,
+            "loaded": 74
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 604767,
+          "cssBytes": 107455,
+          "fontsDone": 2218,
+          "fontPhases": {
+            "requested": 1889,
+            "queued": 0,
+            "waiting": 303,
+            "downloading": 26
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 90,
+              "connect": 150,
+              "tls": 76,
+              "requests": 33
+            }
+          },
+          "fcp": 1248,
+          "lcp": 1248,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 583,
+            "loaded": 78
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 1
+        },
+        {
+          "fontBytes": 604830,
+          "cssBytes": 107503,
+          "fontsDone": 1892,
+          "fontPhases": {
+            "requested": 1557,
+            "queued": 0,
+            "waiting": 309,
+            "downloading": 26
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 85,
+              "connect": 148,
+              "tls": 77,
+              "requests": 33
+            }
+          },
+          "fcp": 872,
+          "lcp": 872,
+          "cls": 0.0002,
+          "shifts": [
+            [
+              874,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 583,
+            "loaded": 78
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 1
+        },
+        {
+          "fontBytes": 578841,
+          "cssBytes": 107633,
+          "fontsDone": 3034,
+          "fontPhases": {
+            "requested": 1624,
+            "queued": 0,
+            "waiting": 1389,
+            "downloading": 21
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 239,
+              "tls": 167,
+              "requests": 32
+            }
+          },
+          "fcp": 1676,
+          "lcp": 1676,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 587,
+            "loaded": 74
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 604776,
+          "cssBytes": 107673,
+          "fontsDone": 2478,
+          "fontPhases": {
+            "requested": 1928,
+            "queued": 0,
+            "waiting": 517,
+            "downloading": 33
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 114,
+              "connect": 158,
+              "tls": 80,
+              "requests": 33
+            }
+          },
+          "fcp": 1272,
+          "lcp": 1272,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 583,
+            "loaded": 78
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 1
+        },
+        {
+          "fontBytes": 604799,
+          "cssBytes": 107487,
+          "fontsDone": 1564,
+          "fontPhases": {
+            "requested": 1202,
+            "queued": 0,
+            "waiting": 309,
+            "downloading": 52
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 154,
+              "tls": 77,
+              "requests": 33
+            }
+          },
+          "fcp": 848,
+          "lcp": 848,
+          "cls": 0.0002,
+          "shifts": [
+            [
+              874,
+              0.0002
+            ]
+          ],
+          "faces": {
+            "unloaded": 583,
+            "loaded": 78
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 1
+        },
+        {
+          "fontBytes": 578800,
+          "cssBytes": 107581,
+          "fontsDone": 2658,
+          "fontPhases": {
+            "requested": 1503,
+            "queued": 0,
+            "waiting": 693,
+            "downloading": 461
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 11,
+              "connect": 204,
+              "tls": 76,
+              "requests": 32
+            }
+          },
+          "fcp": 1560,
+          "lcp": 1560,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 587,
+            "loaded": 74
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        }
+      ]
+    },
+    "next-font/": {
+      "runs": 9,
+      "fontFiles": 29,
+      "fontBytes": 631300,
+      "cssBytes": 112895,
+      "fontsDone": 2399,
+      "fontsDoneRuns": [
+        3116,
+        2371,
+        2643,
+        2695,
+        2399,
+        1822,
+        2556,
+        2094,
+        1806
+      ],
+      "fcp": 1732,
+      "fcpRuns": [
+        2356,
+        1656,
+        1732,
+        1884,
+        1808,
+        1196,
+        1828,
+        1392,
+        1204
+      ],
+      "lcp": 1732,
+      "cls": 0.0187,
+      "clsRuns": [
+        0.017,
+        0.0187,
+        0.0245,
+        0.0161,
+        0.0195,
+        0.0281,
+        0.0161,
+        0.018,
+        0.0217
+      ],
+      "lastFonts": [
+        "hooninedev-web-fonts.netlify.app 0505b0d171cd28c0-s.woff2 21507",
+        "hooninedev-web-fonts.netlify.app 1fbce0608cd88028-s.woff2 16917",
+        "hooninedev-web-fonts.netlify.app 2d3388e92d3d1b53-s.woff2 16275",
+        "hooninedev-web-fonts.netlify.app 30ab42881909fdd8-s.woff2 24582",
+        "hooninedev-web-fonts.netlify.app 3849567ed0f8579d-s.woff2 13525",
+        "hooninedev-web-fonts.netlify.app 3faaf0016b1e6253-s.woff2 17439",
+        "hooninedev-web-fonts.netlify.app 427e4a37d3642943-s.p.woff2 21327",
+        "hooninedev-web-fonts.netlify.app 7377eb6510f6cced-s.woff2 16727",
+        "hooninedev-web-fonts.netlify.app 7fab193c41d907c4-s.woff2 16193",
+        "hooninedev-web-fonts.netlify.app 82bd24513b96a94e-s.woff2 19583",
+        "hooninedev-web-fonts.netlify.app 8e47aaf53e8d0645-s.woff2 29250",
+        "hooninedev-web-fonts.netlify.app 91db6235e14ad92b-s.woff2 18495",
+        "hooninedev-web-fonts.netlify.app a2b595637af69bc7-s.p.woff2 25921",
+        "hooninedev-web-fonts.netlify.app a30b0c3b56a9c333-s.woff2 25428",
+        "hooninedev-web-fonts.netlify.app a61e390620098ad6-s.woff2 22212",
+        "hooninedev-web-fonts.netlify.app a8d5575b7e25d420-s.woff2 17599",
+        "hooninedev-web-fonts.netlify.app aa8bdcc71875688d-s.woff2 16209",
+        "hooninedev-web-fonts.netlify.app ac8d06daacba00f9-s.woff2 18019",
+        "hooninedev-web-fonts.netlify.app bff68d4d637696ef-s.woff2 16474",
+        "hooninedev-web-fonts.netlify.app c1cd2c7dac8cca61-s.woff2 14706",
+        "hooninedev-web-fonts.netlify.app c4b700dcb2187787-s.p.woff2 51800",
+        "hooninedev-web-fonts.netlify.app cc09fa5e90cf7d06-s.woff2 19720",
+        "hooninedev-web-fonts.netlify.app d6f2a1c9ff4599c6-s.woff2 21336",
+        "hooninedev-web-fonts.netlify.app e010b9ec41f1206d-s.woff2 16451",
+        "hooninedev-web-fonts.netlify.app e0346778f15a8db1-s.p.woff2 19570",
+        "hooninedev-web-fonts.netlify.app e4af272ccee01ff0-s.p.woff2 48556",
+        "hooninedev-web-fonts.netlify.app f04f26139a8ff161-s.woff2 14441",
+        "hooninedev-web-fonts.netlify.app f5a719f89bef6bf6-s.woff2 26164",
+        "hooninedev-web-fonts.netlify.app fffa85415bc359ec-s.woff2 24891"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 631344,
+          "cssBytes": 113163,
+          "fontsDone": 3116,
+          "fontPhases": {
+            "requested": 2318,
+            "queued": 0,
+            "waiting": 544,
+            "downloading": 254
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 37,
+              "connect": 156,
+              "tls": 82,
+              "requests": 41
+            }
+          },
+          "fcp": 2356,
+          "lcp": 2356,
+          "cls": 0.017,
+          "shifts": [
+            [
+              2377,
+              0.0002
+            ],
+            [
+              2804,
+              0.0082
+            ],
+            [
+              3079,
+              0.0008
+            ],
+            [
+              3123,
+              0.0077
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631318,
+          "cssBytes": 112792,
+          "fontsDone": 2371,
+          "fontPhases": {
+            "requested": 1618,
+            "queued": 0,
+            "waiting": 536,
+            "downloading": 217
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 205,
+              "tls": 74,
+              "requests": 41
+            }
+          },
+          "fcp": 1656,
+          "lcp": 1656,
+          "cls": 0.0187,
+          "shifts": [
+            [
+              1670,
+              0.0002
+            ],
+            [
+              2047,
+              0.0108
+            ],
+            [
+              2179,
+              0.0002
+            ],
+            [
+              2236,
+              0.0075
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631240,
+          "cssBytes": 112701,
+          "fontsDone": 2643,
+          "fontPhases": {
+            "requested": 1684,
+            "queued": 0,
+            "waiting": 594,
+            "downloading": 365
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 56,
+              "connect": 157,
+              "tls": 75,
+              "requests": 41
+            }
+          },
+          "fcp": 1732,
+          "lcp": 1732,
+          "cls": 0.0245,
+          "shifts": [
+            [
+              1745,
+              0.0083
+            ],
+            [
+              1785,
+              0.0002
+            ],
+            [
+              2087,
+              0.0082
+            ],
+            [
+              2192,
+              0.0004
+            ],
+            [
+              2464,
+              0.0008
+            ],
+            [
+              2512,
+              0.0009
+            ],
+            [
+              2530,
+              0.0057
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631234,
+          "cssBytes": 113067,
+          "fontsDone": 2695,
+          "fontPhases": {
+            "requested": 1838,
+            "queued": 0,
+            "waiting": 558,
+            "downloading": 298
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 3,
+              "connect": 240,
+              "tls": 78,
+              "requests": 41
+            }
+          },
+          "fcp": 1884,
+          "lcp": 1884,
+          "cls": 0.0161,
+          "shifts": [
+            [
+              1909,
+              0.0002
+            ],
+            [
+              2228,
+              0.0082
+            ],
+            [
+              2641,
+              0.001
+            ],
+            [
+              2672,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631274,
+          "cssBytes": 113007,
+          "fontsDone": 2399,
+          "fontPhases": {
+            "requested": 1748,
+            "queued": 0,
+            "waiting": 327,
+            "downloading": 323
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 9,
+              "connect": 264,
+              "tls": 186,
+              "requests": 41
+            }
+          },
+          "fcp": 1808,
+          "lcp": 1808,
+          "cls": 0.0195,
+          "shifts": [
+            [
+              2122,
+              0.0082
+            ],
+            [
+              2141,
+              0.0001
+            ],
+            [
+              2220,
+              0.0004
+            ],
+            [
+              2333,
+              0.0107
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 631280,
+          "cssBytes": 113007,
+          "fontsDone": 1822,
+          "fontPhases": {
+            "requested": 1091,
+            "queued": 0,
+            "waiting": 191,
+            "downloading": 539
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 93,
+              "connect": 245,
+              "tls": 79,
+              "requests": 41
+            }
+          },
+          "fcp": 1196,
+          "lcp": 1196,
+          "cls": 0.0281,
+          "shifts": [
+            [
+              1217,
+              0.0083
+            ],
+            [
+              1257,
+              0.0002
+            ],
+            [
+              1665,
+              0.0121
+            ],
+            [
+              1716,
+              0.0075
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 631300,
+          "cssBytes": 112895,
+          "fontsDone": 2556,
+          "fontPhases": {
+            "requested": 1796,
+            "queued": 0,
+            "waiting": 655,
+            "downloading": 105
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 289,
+              "tls": 145,
+              "requests": 41
+            }
+          },
+          "fcp": 1828,
+          "lcp": 1828,
+          "cls": 0.0161,
+          "shifts": [
+            [
+              1845,
+              0.0002
+            ],
+            [
+              2143,
+              0.0082
+            ],
+            [
+              2293,
+              0.001
+            ],
+            [
+              2495,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631311,
+          "cssBytes": 112846,
+          "fontsDone": 2094,
+          "fontPhases": {
+            "requested": 1352,
+            "queued": 0,
+            "waiting": 619,
+            "downloading": 123
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 121,
+              "connect": 153,
+              "tls": 77,
+              "requests": 41
+            }
+          },
+          "fcp": 1392,
+          "lcp": 1392,
+          "cls": 0.018,
+          "shifts": [
+            [
+              1408,
+              0.0002
+            ],
+            [
+              1588,
+              0.0108
+            ],
+            [
+              1609,
+              0.0006
+            ],
+            [
+              1625,
+              0.0008
+            ],
+            [
+              1653,
+              0.0057
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 631317,
+          "cssBytes": 112847,
+          "fontsDone": 1806,
+          "fontPhases": {
+            "requested": 1156,
+            "queued": 0,
+            "waiting": 196,
+            "downloading": 453
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 37,
+              "connect": 146,
+              "tls": 75,
+              "requests": 41
+            }
+          },
+          "fcp": 1204,
+          "lcp": 1204,
+          "cls": 0.0217,
+          "shifts": [
+            [
+              1218,
+              0.0002
+            ],
+            [
+              1688,
+              0.0082
+            ],
+            [
+              1737,
+              0.0133
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 93
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "next-font-nopreload/": {
+      "runs": 9,
+      "fontFiles": 28,
+      "fontBytes": 605339,
+      "cssBytes": 113034,
+      "fontsDone": 2664,
+      "fontsDoneRuns": [
+        2408,
+        3295,
+        1892,
+        2996,
+        2222,
+        2272,
+        3812,
+        2664,
+        3034
+      ],
+      "fcp": 1728,
+      "fcpRuns": [
+        1560,
+        2312,
+        1160,
+        2016,
+        1468,
+        1396,
+        2720,
+        1728,
+        2100
+      ],
+      "lcp": 1728,
+      "cls": 0.009,
+      "clsRuns": [
+        0.009,
+        0.0092,
+        0.0079,
+        0.0089,
+        0.0093,
+        0.0241,
+        0.0084,
+        0.0084,
+        0.0092
+      ],
+      "lastFonts": [
+        "hooninedev-web-fonts.netlify.app 0505b0d171cd28c0-s.woff2 21515",
+        "hooninedev-web-fonts.netlify.app 1fbce0608cd88028-s.woff2 16917",
+        "hooninedev-web-fonts.netlify.app 2d3388e92d3d1b53-s.woff2 16237",
+        "hooninedev-web-fonts.netlify.app 30ab42881909fdd8-s.woff2 24578",
+        "hooninedev-web-fonts.netlify.app 3849567ed0f8579d-s.woff2 13525",
+        "hooninedev-web-fonts.netlify.app 3faaf0016b1e6253-s.woff2 17438",
+        "hooninedev-web-fonts.netlify.app 427e4a37d3642943-s.woff2 21326",
+        "hooninedev-web-fonts.netlify.app 7377eb6510f6cced-s.woff2 16673",
+        "hooninedev-web-fonts.netlify.app 7fab193c41d907c4-s.woff2 16233",
+        "hooninedev-web-fonts.netlify.app 82bd24513b96a94e-s.woff2 19605",
+        "hooninedev-web-fonts.netlify.app 8e47aaf53e8d0645-s.woff2 29250",
+        "hooninedev-web-fonts.netlify.app 91db6235e14ad92b-s.woff2 18560",
+        "hooninedev-web-fonts.netlify.app a30b0c3b56a9c333-s.woff2 25427",
+        "hooninedev-web-fonts.netlify.app a61e390620098ad6-s.woff2 22166",
+        "hooninedev-web-fonts.netlify.app a8d5575b7e25d420-s.woff2 17599",
+        "hooninedev-web-fonts.netlify.app aa8bdcc71875688d-s.woff2 16215",
+        "hooninedev-web-fonts.netlify.app ac8d06daacba00f9-s.woff2 18027",
+        "hooninedev-web-fonts.netlify.app bff68d4d637696ef-s.woff2 16473",
+        "hooninedev-web-fonts.netlify.app c1cd2c7dac8cca61-s.woff2 14715",
+        "hooninedev-web-fonts.netlify.app c4b700dcb2187787-s.woff2 51761",
+        "hooninedev-web-fonts.netlify.app cc09fa5e90cf7d06-s.woff2 19718",
+        "hooninedev-web-fonts.netlify.app d6f2a1c9ff4599c6-s.woff2 21323",
+        "hooninedev-web-fonts.netlify.app e010b9ec41f1206d-s.woff2 16451",
+        "hooninedev-web-fonts.netlify.app e0346778f15a8db1-s.woff2 19577",
+        "hooninedev-web-fonts.netlify.app e4af272ccee01ff0-s.woff2 48556",
+        "hooninedev-web-fonts.netlify.app f04f26139a8ff161-s.woff2 14401",
+        "hooninedev-web-fonts.netlify.app f5a719f89bef6bf6-s.woff2 26163",
+        "hooninedev-web-fonts.netlify.app fffa85415bc359ec-s.woff2 24850"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 605366,
+          "cssBytes": 112804,
+          "fontsDone": 2408,
+          "fontPhases": {
+            "requested": 1503,
+            "queued": 0,
+            "waiting": 529,
+            "downloading": 375
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 44,
+              "connect": 148,
+              "tls": 75,
+              "requests": 40
+            }
+          },
+          "fcp": 1560,
+          "lcp": 1560,
+          "cls": 0.009,
+          "shifts": [
+            [
+              2104,
+              0.0003
+            ],
+            [
+              2303,
+              0.0001
+            ],
+            [
+              2320,
+              0.0008
+            ],
+            [
+              2349,
+              0.0076
+            ],
+            [
+              2413,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 605280,
+          "cssBytes": 113118,
+          "fontsDone": 3295,
+          "fontPhases": {
+            "requested": 2257,
+            "queued": 0,
+            "waiting": 480,
+            "downloading": 557
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 57,
+              "connect": 248,
+              "tls": 88,
+              "requests": 40
+            }
+          },
+          "fcp": 2312,
+          "lcp": 2312,
+          "cls": 0.0092,
+          "shifts": [
+            [
+              2335,
+              0.0002
+            ],
+            [
+              2665,
+              0.0001
+            ],
+            [
+              2680,
+              0.0003
+            ],
+            [
+              3202,
+              0.0006
+            ],
+            [
+              3235,
+              0.0003
+            ],
+            [
+              3255,
+              0.0076
+            ],
+            [
+              3302,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 605356,
+          "cssBytes": 113034,
+          "fontsDone": 1892,
+          "fontPhases": {
+            "requested": 1116,
+            "queued": 0,
+            "waiting": 613,
+            "downloading": 163
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 182,
+              "tls": 88,
+              "requests": 40
+            }
+          },
+          "fcp": 1160,
+          "lcp": 1160,
+          "cls": 0.0079,
+          "shifts": [
+            [
+              1172,
+              0.0002
+            ],
+            [
+              1443,
+              0.0008
+            ],
+            [
+              1488,
+              0.0001
+            ],
+            [
+              1666,
+              0.0002
+            ],
+            [
+              1682,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 605339,
+          "cssBytes": 113152,
+          "fontsDone": 2996,
+          "fontPhases": {
+            "requested": 1946,
+            "queued": 0,
+            "waiting": 516,
+            "downloading": 532
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 212,
+              "tls": 89,
+              "requests": 40
+            }
+          },
+          "fcp": 2016,
+          "lcp": 2016,
+          "cls": 0.0089,
+          "shifts": [
+            [
+              2027,
+              0.0002
+            ],
+            [
+              2456,
+              0.0003
+            ],
+            [
+              2718,
+              0.0004
+            ],
+            [
+              2859,
+              0.0007
+            ],
+            [
+              2908,
+              0.0071
+            ],
+            [
+              3014,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 605326,
+          "cssBytes": 112931,
+          "fontsDone": 2222,
+          "fontPhases": {
+            "requested": 1424,
+            "queued": 0,
+            "waiting": 175,
+            "downloading": 622
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 45,
+              "connect": 248,
+              "tls": 166,
+              "requests": 40
+            }
+          },
+          "fcp": 1468,
+          "lcp": 1468,
+          "cls": 0.0093,
+          "shifts": [
+            [
+              1492,
+              0.0002
+            ],
+            [
+              1927,
+              0.0008
+            ],
+            [
+              2014,
+              0.0012
+            ],
+            [
+              2051,
+              0.0067
+            ],
+            [
+              2086,
+              0.0003
+            ],
+            [
+              2233,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 605327,
+          "cssBytes": 112866,
+          "fontsDone": 2272,
+          "fontPhases": {
+            "requested": 1370,
+            "queued": 0,
+            "waiting": 410,
+            "downloading": 492
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 59,
+              "connect": 147,
+              "tls": 77,
+              "requests": 39
+            }
+          },
+          "fcp": 1396,
+          "lcp": 1396,
+          "cls": 0.0241,
+          "shifts": [
+            [
+              1484,
+              0.0002
+            ],
+            [
+              1668,
+              0.0083
+            ],
+            [
+              1739,
+              0.0082
+            ],
+            [
+              1762,
+              0.0007
+            ],
+            [
+              2229,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 605378,
+          "cssBytes": 113195,
+          "fontsDone": 3812,
+          "fontPhases": {
+            "requested": 2675,
+            "queued": 147,
+            "waiting": 564,
+            "downloading": 425
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 3,
+              "connect": 228,
+              "tls": 141,
+              "requests": 40
+            }
+          },
+          "fcp": 2720,
+          "lcp": 2720,
+          "cls": 0.0084,
+          "shifts": [
+            [
+              2748,
+              0.0002
+            ],
+            [
+              3505,
+              0.0009
+            ],
+            [
+              3564,
+              0.0002
+            ],
+            [
+              3658,
+              0.0067
+            ],
+            [
+              3757,
+              0.0003
+            ],
+            [
+              3821,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 605343,
+          "cssBytes": 112956,
+          "fontsDone": 2664,
+          "fontPhases": {
+            "requested": 1681,
+            "queued": 0,
+            "waiting": 462,
+            "downloading": 520
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 203,
+              "tls": 76,
+              "requests": 40
+            }
+          },
+          "fcp": 1728,
+          "lcp": 1728,
+          "cls": 0.0084,
+          "shifts": [
+            [
+              1750,
+              0.0002
+            ],
+            [
+              2312,
+              0.0003
+            ],
+            [
+              2428,
+              0.0008
+            ],
+            [
+              2442,
+              0.0002
+            ],
+            [
+              2494,
+              0.0011
+            ],
+            [
+              2545,
+              0.0057
+            ],
+            [
+              2670,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        },
+        {
+          "fontBytes": 605279,
+          "cssBytes": 113040,
+          "fontsDone": 3034,
+          "fontPhases": {
+            "requested": 2054,
+            "queued": 0,
+            "waiting": 441,
+            "downloading": 538
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 3,
+              "connect": 170,
+              "tls": 100,
+              "requests": 40
+            }
+          },
+          "fcp": 2100,
+          "lcp": 2100,
+          "cls": 0.0092,
+          "shifts": [
+            [
+              2126,
+              0.0002
+            ],
+            [
+              2481,
+              0.0008
+            ],
+            [
+              2494,
+              0.0002
+            ],
+            [
+              2553,
+              0.0003
+            ],
+            [
+              2902,
+              0.0076
+            ],
+            [
+              3047,
+              0.0001
+            ]
+          ],
+          "faces": {
+            "unloaded": 555,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 28
+        }
+      ]
+    },
+    "next-font-noadjust/": {
+      "runs": 9,
+      "fontFiles": 29,
+      "fontBytes": 631292,
+      "cssBytes": 112461,
+      "fontsDone": 2316,
+      "fontsDoneRuns": [
+        2043,
+        2316,
+        2726,
+        2512,
+        2233,
+        1828,
+        3454,
+        2259,
+        2668
+      ],
+      "fcp": 1544,
+      "fcpRuns": [
+        1492,
+        1544,
+        1952,
+        1792,
+        1508,
+        1216,
+        2480,
+        1544,
+        1760
+      ],
+      "lcp": 1544,
+      "cls": 0.0168,
+      "clsRuns": [
+        0.0189,
+        0.0187,
+        0.0161,
+        0.0171,
+        0.0168,
+        0.0187,
+        0.0163,
+        0.0164,
+        0.0161
+      ],
+      "lastFonts": [
+        "hooninedev-web-fonts.netlify.app 0505b0d171cd28c0.woff2 21506",
+        "hooninedev-web-fonts.netlify.app 1fbce0608cd88028.woff2 16917",
+        "hooninedev-web-fonts.netlify.app 2d3388e92d3d1b53.woff2 16237",
+        "hooninedev-web-fonts.netlify.app 30ab42881909fdd8.woff2 24578",
+        "hooninedev-web-fonts.netlify.app 3849567ed0f8579d.woff2 13525",
+        "hooninedev-web-fonts.netlify.app 3faaf0016b1e6253.woff2 17439",
+        "hooninedev-web-fonts.netlify.app 427e4a37d3642943.p.woff2 21326",
+        "hooninedev-web-fonts.netlify.app 7377eb6510f6cced.woff2 16828",
+        "hooninedev-web-fonts.netlify.app 7fab193c41d907c4.woff2 16193",
+        "hooninedev-web-fonts.netlify.app 82bd24513b96a94e.woff2 19583",
+        "hooninedev-web-fonts.netlify.app 8e47aaf53e8d0645.woff2 29251",
+        "hooninedev-web-fonts.netlify.app 91db6235e14ad92b.woff2 18494",
+        "hooninedev-web-fonts.netlify.app a2b595637af69bc7.p.woff2 25968",
+        "hooninedev-web-fonts.netlify.app a30b0c3b56a9c333.woff2 25427",
+        "hooninedev-web-fonts.netlify.app a61e390620098ad6.woff2 22166",
+        "hooninedev-web-fonts.netlify.app a8d5575b7e25d420.woff2 17598",
+        "hooninedev-web-fonts.netlify.app aa8bdcc71875688d.woff2 16210",
+        "hooninedev-web-fonts.netlify.app ac8d06daacba00f9.woff2 18159",
+        "hooninedev-web-fonts.netlify.app bff68d4d637696ef.woff2 16474",
+        "hooninedev-web-fonts.netlify.app c1cd2c7dac8cca61.woff2 14705",
+        "hooninedev-web-fonts.netlify.app c4b700dcb2187787.p.woff2 51778",
+        "hooninedev-web-fonts.netlify.app cc09fa5e90cf7d06.woff2 19717",
+        "hooninedev-web-fonts.netlify.app d6f2a1c9ff4599c6.woff2 21283",
+        "hooninedev-web-fonts.netlify.app e010b9ec41f1206d.woff2 16450",
+        "hooninedev-web-fonts.netlify.app e0346778f15a8db1.p.woff2 19569",
+        "hooninedev-web-fonts.netlify.app e4af272ccee01ff0.p.woff2 48565",
+        "hooninedev-web-fonts.netlify.app f04f26139a8ff161.woff2 14402",
+        "hooninedev-web-fonts.netlify.app f5a719f89bef6bf6.woff2 26163",
+        "hooninedev-web-fonts.netlify.app fffa85415bc359ec.woff2 24851"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 631308,
+          "cssBytes": 112339,
+          "fontsDone": 2043,
+          "fontPhases": {
+            "requested": 1423,
+            "queued": 0,
+            "waiting": 371,
+            "downloading": 249
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 83,
+              "connect": 155,
+              "tls": 77,
+              "requests": 41
+            }
+          },
+          "fcp": 1492,
+          "lcp": 1492,
+          "cls": 0.0189,
+          "shifts": [
+            [
+              1721,
+              0.0108
+            ],
+            [
+              1739,
+              0.0002
+            ],
+            [
+              1757,
+              0.008
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 631259,
+          "cssBytes": 112397,
+          "fontsDone": 2316,
+          "fontPhases": {
+            "requested": 1501,
+            "queued": 0,
+            "waiting": 543,
+            "downloading": 271
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 36,
+              "connect": 151,
+              "tls": 74,
+              "requests": 41
+            }
+          },
+          "fcp": 1544,
+          "lcp": 1544,
+          "cls": 0.0187,
+          "shifts": [
+            [
+              1564,
+              0.0002
+            ],
+            [
+              1999,
+              0.0108
+            ],
+            [
+              2019,
+              0.0002
+            ],
+            [
+              2073,
+              0.0075
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631315,
+          "cssBytes": 112648,
+          "fontsDone": 2726,
+          "fontPhases": {
+            "requested": 1908,
+            "queued": 0,
+            "waiting": 538,
+            "downloading": 279
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 167,
+              "tls": 80,
+              "requests": 41
+            }
+          },
+          "fcp": 1952,
+          "lcp": 1952,
+          "cls": 0.0161,
+          "shifts": [
+            [
+              1976,
+              0.0002
+            ],
+            [
+              2404,
+              0.0082
+            ],
+            [
+              2445,
+              0.0004
+            ],
+            [
+              2523,
+              0.0006
+            ],
+            [
+              2600,
+              0.001
+            ],
+            [
+              2610,
+              0.0057
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631292,
+          "cssBytes": 112632,
+          "fontsDone": 2512,
+          "fontPhases": {
+            "requested": 1770,
+            "queued": 0,
+            "waiting": 526,
+            "downloading": 217
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 1,
+              "connect": 153,
+              "tls": 75,
+              "requests": 41
+            }
+          },
+          "fcp": 1792,
+          "lcp": 1792,
+          "cls": 0.0171,
+          "shifts": [
+            [
+              1809,
+              0.0002
+            ],
+            [
+              2279,
+              0.0082
+            ],
+            [
+              2455,
+              0.0009
+            ],
+            [
+              2470,
+              0.0077
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631293,
+          "cssBytes": 112314,
+          "fontsDone": 2233,
+          "fontPhases": {
+            "requested": 1464,
+            "queued": 0,
+            "waiting": 369,
+            "downloading": 399
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 38,
+              "connect": 229,
+              "tls": 158,
+              "requests": 41
+            }
+          },
+          "fcp": 1508,
+          "lcp": 1508,
+          "cls": 0.0168,
+          "shifts": [
+            [
+              1538,
+              0.0002
+            ],
+            [
+              1924,
+              0.0082
+            ],
+            [
+              2100,
+              0.0008
+            ],
+            [
+              2182,
+              0.0075
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631277,
+          "cssBytes": 112545,
+          "fontsDone": 1828,
+          "fontPhases": {
+            "requested": 1180,
+            "queued": 0,
+            "waiting": 185,
+            "downloading": 462
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 39,
+              "connect": 244,
+              "tls": 173,
+              "requests": 41
+            }
+          },
+          "fcp": 1216,
+          "lcp": 1216,
+          "cls": 0.0187,
+          "shifts": [
+            [
+              1233,
+              0.0002
+            ],
+            [
+              1671,
+              0.0108
+            ],
+            [
+              1699,
+              0.0002
+            ],
+            [
+              1762,
+              0.0075
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 631280,
+          "cssBytes": 112591,
+          "fontsDone": 3454,
+          "fontPhases": {
+            "requested": 2450,
+            "queued": 139,
+            "waiting": 577,
+            "downloading": 288
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 46,
+              "connect": 195,
+              "tls": 75,
+              "requests": 41
+            }
+          },
+          "fcp": 2480,
+          "lcp": 2480,
+          "cls": 0.0163,
+          "shifts": [
+            [
+              3082,
+              0.0082
+            ],
+            [
+              3267,
+              0.0008
+            ],
+            [
+              3334,
+              0.0002
+            ],
+            [
+              3387,
+              0.0004
+            ],
+            [
+              3437,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631276,
+          "cssBytes": 112261,
+          "fontsDone": 2259,
+          "fontPhases": {
+            "requested": 1513,
+            "queued": 0,
+            "waiting": 552,
+            "downloading": 194
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 122,
+              "connect": 148,
+              "tls": 76,
+              "requests": 41
+            }
+          },
+          "fcp": 1544,
+          "lcp": 1544,
+          "cls": 0.0164,
+          "shifts": [
+            [
+              1558,
+              0.0002
+            ],
+            [
+              1878,
+              0.0082
+            ],
+            [
+              2134,
+              0.0004
+            ],
+            [
+              2146,
+              0.0008
+            ],
+            [
+              2201,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 29
+        },
+        {
+          "fontBytes": 631362,
+          "cssBytes": 112461,
+          "fontsDone": 2668,
+          "fontPhases": {
+            "requested": 1734,
+            "queued": 163,
+            "waiting": 397,
+            "downloading": 373
+          },
+          "origins": {
+            "hooninedev-web-fonts.netlify.app": {
+              "firstStart": 0,
+              "dns": 10,
+              "connect": 179,
+              "tls": 90,
+              "requests": 41
+            }
+          },
+          "fcp": 1760,
+          "lcp": 1760,
+          "cls": 0.0161,
+          "shifts": [
+            [
+              1792,
+              0.0002
+            ],
+            [
+              2127,
+              0.0082
+            ],
+            [
+              2234,
+              0.0001
+            ],
+            [
+              2594,
+              0.0008
+            ],
+            [
+              2625,
+              0.0067
+            ]
+          ],
+          "faces": {
+            "unloaded": 551,
+            "loaded": 89
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "hooninedev-web-fonts.netlify.app"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 5
+        }
+      ]
+    }
+  }
+}

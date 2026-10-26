@@ -57,3 +57,24 @@ node scripts/measure-full.mjs 9 https://hooninedev-web-fonts.netlify.app fast4g
 기준 결과는 `results/2026-10-23-full-deployed-fast4g.json` 이다(9회, 예열 3회, DevTools Fast 4G 적용값 165 ms, 8.1 Mbps). 같은 날의 `-run1`, `-run2` 는 `_headers` 의 캐시 헤더를 고치기 전에 잰 것이라 비교에 쓰지 않는다. 이 기준 결과는 edge 캐시 적중 판정을 고치기 전에 기록했다. 지금의 `measure-full.mjs` 는 `fwd=stale` 도 적중 실패로 센다.
 
 글에 넣은 DevTools Network 화면은 `scripts/devtools/` 에서 찍는다. 절차는 그 폴더의 README 에 있다.
+
+### 두 번째 측정 (2026-10-26)
+
+`full-*` 로 답하지 못한 것을 잰다. 폰트를 다른 origin 에서 받는 비용, 사이트별 캐시 분할, `next/font` 의 preload 와 대체 글꼴, `font-display`.
+
+| 페이지 | 무엇 |
+|---|---|
+| `full-d-live/` | D 와 같은 요청을 `fonts.googleapis.com` 에 실시간으로 건다 |
+| `full-d-live-preconnect/` | 같은 페이지에 Google 임베드 코드의 preconnect 두 줄 |
+| `full-d-google/optional.html` | D 의 파일 그대로, `font-display: optional` |
+| `next-font/`, `-nopreload/`, `-noadjust/` | `next-font-app/` 을 Next.js 16.3.4 로 정적 export. 산출물은 커밋하지 않는다(`cd next-font-app && pnpm install && pnpm build`) |
+
+```bash
+node scripts/build-extra-pages.mjs
+WARM=6 node scripts/measure-round2.mjs 9 https://hooninedev-web-fonts.netlify.app fast4g
+node scripts/serve.mjs 4173 & node scripts/cache-partition.mjs
+node scripts/rendered-fonts.mjs
+```
+
+- `results/2026-10-26-round2-fast4g-run1.json` 은 재배포 직후라 edge 캐시가 비어 있었다. 비교에는 `-warm.json`(예열 6회)과 `-cd.json`(C, D, D-range)을 쓴다. 두 파일 모두 회차마다 `edgeMissAll` 이 있어 edge 가 원본까지 간 응답을 가려낼 수 있다
+- `next-font-app/build.mjs` 는 `--webpack` 으로 빌드한다. 16.3.4 의 Turbopack 빌드는 `adjustFontFallback: false` 를 줘도 대체 글꼴 규칙을 남겼다
