@@ -1,5 +1,5 @@
 {
-  "measuredAt": "2026-10-26T06:47:33.563Z",
+  "measuredAt": "2026-10-26T06:57:59.689Z",
   "base": "https://hooninedev-web-fonts.netlify.app",
   "report": {
     "full-d-google/": {
@@ -27,8 +27,9 @@
     },
     "full-d-live/": {
       "before": [
+        "Noto Sans KR Thin (web) 18",
         "Menlo 6",
-        "Apple SD Gothic Neo 163"
+        "Apple SD Gothic Neo 145"
       ],
       "after": [
         "Noto Sans KR Thin (web) 119",
@@ -36,31 +37,31 @@
         "Inter (web) 43"
       ],
       "connections": [
-        "fonts.googleapis.com 254 h2",
-        "fonts.gstatic.com 328 h3"
+        "fonts.googleapis.com 281 h2",
+        "fonts.gstatic.com 314 h3"
       ]
     },
     "full-d-live-preconnect/": {
       "before": [
-        "Noto Sans KR Thin Light (web) 76",
-        "Menlo 6",
-        "Apple SD Gothic Neo 85"
+        "Noto Sans KR Thin (web) 158",
+        "Apple SD Gothic Neo 11"
       ],
       "after": [
-        "Inter Light (web) 43",
-        "Noto Sans KR Thin Light (web) 119",
-        "JetBrains Mono (web) 6"
+        "Noto Sans KR Thin (web) 119",
+        "JetBrains Mono (web) 6",
+        "Inter (web) 43"
       ],
       "connections": [
-        "fonts.googleapis.com 239 h2",
-        "fonts.gstatic.com 280 h3"
+        "fonts.googleapis.com 286 h2",
+        "fonts.gstatic.com 319 h3"
       ]
     },
     "next-font/": {
       "before": [
-        "Inter (web) 44",
+        "Noto Sans KR Thin (web) 84",
         "JetBrains Mono (web) 6",
-        "Apple SD Gothic Neo 119"
+        "Inter (web) 44",
+        "Apple SD Gothic Neo 35"
       ],
       "after": [
         "Noto Sans KR Thin (web) 119",
