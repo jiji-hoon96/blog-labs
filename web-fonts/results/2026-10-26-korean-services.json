@@ -1,0 +1,2744 @@
+{
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "base": "https:",
+  "throttle": null,
+  "measuredAt": "2026-10-26T07:10:07.720Z",
+  "report": {
+    "www.naver.com/": {
+      "runs": 2,
+      "fontFiles": 1,
+      "fontBytes": 388652,
+      "cssBytes": 144101,
+      "fontsDone": 1218,
+      "fontsDoneRuns": [
+        1218,
+        784
+      ],
+      "fcp": 260,
+      "fcpRuns": [
+        260,
+        172
+      ],
+      "lcp": 1088,
+      "cls": 0.9782,
+      "clsRuns": [
+        0.9782,
+        0.9782
+      ],
+      "lastFonts": [
+        "ssl.pstatic.net NanumSquareNeoTTF-dEb.woff2 388607"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 388652,
+          "cssBytes": 144101,
+          "fontsDone": 1218,
+          "fontPhases": {
+            "requested": 1092,
+            "queued": 0,
+            "waiting": 9,
+            "downloading": 116
+          },
+          "origins": {
+            "www.naver.com": {
+              "firstStart": 0,
+              "dns": 7,
+              "connect": 18,
+              "tls": 11,
+              "requests": 3
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 163,
+              "dns": 5,
+              "connect": 21,
+              "tls": 13,
+              "requests": 35
+            },
+            "pm.pstatic.net": {
+              "firstStart": 165,
+              "dns": 4,
+              "connect": 21,
+              "tls": 13,
+              "requests": 8
+            },
+            "search.naver.com": {
+              "firstStart": 273,
+              "dns": 4,
+              "connect": 15,
+              "tls": 9,
+              "requests": 1
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 317,
+              "dns": 6,
+              "connect": 23,
+              "tls": 11,
+              "requests": 7
+            },
+            "ntm.pstatic.net": {
+              "firstStart": 335,
+              "dns": 9,
+              "connect": 45,
+              "tls": 13,
+              "requests": 9
+            },
+            "shopsquare.naver.com": {
+              "firstStart": 411,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 2
+            },
+            "recoshopping.naver.com": {
+              "firstStart": 354,
+              "dns": 18,
+              "connect": 21,
+              "tls": 14,
+              "requests": 2
+            },
+            "siape.veta.naver.com": {
+              "firstStart": 358,
+              "dns": 14,
+              "connect": 61,
+              "tls": 14,
+              "requests": 13
+            },
+            "s.pstatic.net": {
+              "firstStart": 363,
+              "dns": 0,
+              "connect": 7,
+              "tls": 7,
+              "requests": 56
+            },
+            "": {
+              "firstStart": 386,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 4
+            },
+            "tivan.naver.com": {
+              "firstStart": 405,
+              "dns": 5,
+              "connect": 98,
+              "tls": 17,
+              "requests": 22
+            },
+            "spastatic.naver.com": {
+              "firstStart": 411,
+              "dns": 6,
+              "connect": 30,
+              "tls": 20,
+              "requests": 29
+            },
+            "gfd-phinf.pstatic.net": {
+              "firstStart": 593,
+              "dns": 89,
+              "connect": 31,
+              "tls": 11,
+              "requests": 2
+            },
+            "shopping-phinf.pstatic.net": {
+              "firstStart": 700,
+              "dns": 8,
+              "connect": 16,
+              "tls": 9,
+              "requests": 7
+            },
+            "shop-phinf.pstatic.net": {
+              "firstStart": 700,
+              "dns": 5,
+              "connect": 31,
+              "tls": 12,
+              "requests": 1
+            },
+            "searchad-phinf.pstatic.net": {
+              "firstStart": 701,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "nlog.naver.com": {
+              "firstStart": 745,
+              "dns": 16,
+              "connect": 15,
+              "tls": 9,
+              "requests": 6
+            },
+            "search.pstatic.net": {
+              "firstStart": 781,
+              "dns": 7,
+              "connect": 19,
+              "tls": 11,
+              "requests": 10
+            },
+            "cologger.shopping.naver.com": {
+              "firstStart": 801,
+              "dns": 6,
+              "connect": 26,
+              "tls": 15,
+              "requests": 2
+            },
+            "glad-vod.pstatic.net": {
+              "firstStart": 1107,
+              "dns": 97,
+              "connect": 21,
+              "tls": 9,
+              "requests": 4
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 260,
+          "lcp": 1088,
+          "cls": 0.9782,
+          "shifts": [
+            [
+              392,
+              0.9782
+            ]
+          ],
+          "faces": {
+            "unloaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "ssl.pstatic.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 388607,
+          "cssBytes": 144074,
+          "fontsDone": 784,
+          "fontPhases": {
+            "requested": 752,
+            "queued": 0,
+            "waiting": 6,
+            "downloading": 26
+          },
+          "origins": {
+            "www.naver.com": {
+              "firstStart": 0,
+              "dns": 2,
+              "connect": 27,
+              "tls": 20,
+              "requests": 3
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 81,
+              "dns": 6,
+              "connect": 19,
+              "tls": 11,
+              "requests": 35
+            },
+            "pm.pstatic.net": {
+              "firstStart": 87,
+              "dns": 9,
+              "connect": 19,
+              "tls": 13,
+              "requests": 8
+            },
+            "search.naver.com": {
+              "firstStart": 173,
+              "dns": 6,
+              "connect": 22,
+              "tls": 11,
+              "requests": 1
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 219,
+              "dns": 10,
+              "connect": 17,
+              "tls": 10,
+              "requests": 7
+            },
+            "ntm.pstatic.net": {
+              "firstStart": 241,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 9
+            },
+            "shopsquare.naver.com": {
+              "firstStart": 305,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 2
+            },
+            "recoshopping.naver.com": {
+              "firstStart": 259,
+              "dns": 4,
+              "connect": 26,
+              "tls": 13,
+              "requests": 2
+            },
+            "siape.veta.naver.com": {
+              "firstStart": 262,
+              "dns": 6,
+              "connect": 106,
+              "tls": 14,
+              "requests": 13
+            },
+            "s.pstatic.net": {
+              "firstStart": 265,
+              "dns": 0,
+              "connect": 2,
+              "tls": 2,
+              "requests": 53
+            },
+            "": {
+              "firstStart": 285,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 4
+            },
+            "tivan.naver.com": {
+              "firstStart": 300,
+              "dns": 7,
+              "connect": 21,
+              "tls": 14,
+              "requests": 22
+            },
+            "spastatic.naver.com": {
+              "firstStart": 306,
+              "dns": 8,
+              "connect": 115,
+              "tls": 105,
+              "requests": 29
+            },
+            "gfd-phinf.pstatic.net": {
+              "firstStart": 337,
+              "dns": 89,
+              "connect": 38,
+              "tls": 28,
+              "requests": 2
+            },
+            "nlog.naver.com": {
+              "firstStart": 357,
+              "dns": 67,
+              "connect": 25,
+              "tls": 15,
+              "requests": 6
+            },
+            "glad-vod.pstatic.net": {
+              "firstStart": 526,
+              "dns": 6,
+              "connect": 16,
+              "tls": 8,
+              "requests": 4
+            },
+            "search.pstatic.net": {
+              "firstStart": 542,
+              "dns": 5,
+              "connect": 20,
+              "tls": 12,
+              "requests": 10
+            },
+            "cologger.shopping.naver.com": {
+              "firstStart": 564,
+              "dns": 6,
+              "connect": 17,
+              "tls": 10,
+              "requests": 2
+            },
+            "shop-phinf.pstatic.net": {
+              "firstStart": 575,
+              "dns": 5,
+              "connect": 14,
+              "tls": 8,
+              "requests": 1
+            },
+            "shopping-phinf.pstatic.net": {
+              "firstStart": 575,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 6
+            },
+            "searchad-phinf.pstatic.net": {
+              "firstStart": 575,
+              "dns": 4,
+              "connect": 18,
+              "tls": 11,
+              "requests": 2
+            },
+            "phinf.pstatic.net": {
+              "firstStart": 739,
+              "dns": 4,
+              "connect": 17,
+              "tls": 10,
+              "requests": 3
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 172,
+          "lcp": 332,
+          "cls": 0.9782,
+          "shifts": [
+            [
+              290,
+              0.9782
+            ]
+          ],
+          "faces": {
+            "unloaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "ssl.pstatic.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "toss.im/": {
+      "runs": 2,
+      "fontFiles": 5,
+      "fontBytes": 2048747,
+      "cssBytes": 53651,
+      "fontsDone": 554,
+      "fontsDoneRuns": [
+        458,
+        554
+      ],
+      "fcp": 328,
+      "fcpRuns": [
+        140,
+        328
+      ],
+      "lcp": 960,
+      "cls": 0.0003,
+      "clsRuns": [
+        0.0003,
+        0.0003
+      ],
+      "lastFonts": [
+        "static.toss.im 190cd984471a34c4.p.woff2 10392",
+        "static.toss.im TossProductSansOTF-Bold.woff2 534360",
+        "static.toss.im TossProductSansOTF-Medium.woff2 492848",
+        "static.toss.im TossProductSansOTF-Regular.woff2 509801",
+        "static.toss.im TossProductSansOTF-Semibold.woff2 501346"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 2048747,
+          "cssBytes": 53651,
+          "fontsDone": 458,
+          "fontPhases": {
+            "requested": 381,
+            "queued": 16,
+            "waiting": 31,
+            "downloading": 30
+          },
+          "origins": {
+            "toss.im": {
+              "firstStart": 0,
+              "dns": 2,
+              "connect": 105,
+              "tls": 94,
+              "requests": 3
+            },
+            "static.toss.im": {
+              "firstStart": 71,
+              "dns": 5,
+              "connect": 25,
+              "tls": 17,
+              "requests": 189
+            },
+            "o467065.ingest.us.sentry.io": {
+              "firstStart": 152,
+              "dns": 15,
+              "connect": 53,
+              "tls": 48,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 140,
+          "lcp": 960,
+          "cls": 0.0003,
+          "shifts": [
+            [
+              393,
+              0.0003
+            ]
+          ],
+          "faces": {
+            "loaded": 4,
+            "unloaded": 7
+          },
+          "unusedPreloads": [
+            "<link rel=preload> uses an unsupported `as` value",
+            "The resource https://static.toss.im/assets/toss-im/asset/hero-frame-3/frame_0000"
+          ],
+          "fontHosts": [
+            "static.toss.im"
+          ],
+          "fontTypes": [
+            "font/woff2",
+            "application/octet-stream"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 2048747,
+          "cssBytes": 53651,
+          "fontsDone": 554,
+          "fontPhases": {
+            "requested": 478,
+            "queued": 20,
+            "waiting": 12,
+            "downloading": 43
+          },
+          "origins": {
+            "toss.im": {
+              "firstStart": 0,
+              "dns": 3,
+              "connect": 55,
+              "tls": 14,
+              "requests": 3
+            },
+            "static.toss.im": {
+              "firstStart": 164,
+              "dns": 6,
+              "connect": 117,
+              "tls": 19,
+              "requests": 189
+            },
+            "o467065.ingest.us.sentry.io": {
+              "firstStart": 366,
+              "dns": 12,
+              "connect": 65,
+              "tls": 52,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 328,
+          "lcp": 516,
+          "cls": 0.0003,
+          "shifts": [
+            [
+              487,
+              0.0003
+            ]
+          ],
+          "faces": {
+            "loaded": 4,
+            "unloaded": 7
+          },
+          "unusedPreloads": [
+            "<link rel=preload> uses an unsupported `as` value",
+            "The resource https://static.toss.im/assets/toss-im/asset/hero-frame-3/frame_0000"
+          ],
+          "fontHosts": [
+            "static.toss.im"
+          ],
+          "fontTypes": [
+            "font/woff2",
+            "application/octet-stream"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "www.kakaocorp.com/page/": {
+      "runs": 2,
+      "fontFiles": 4,
+      "fontBytes": 1394914,
+      "cssBytes": 75654,
+      "fontsDone": 402,
+      "fontsDoneRuns": [
+        402,
+        364
+      ],
+      "fcp": 576,
+      "fcpRuns": [
+        576,
+        556
+      ],
+      "lcp": 936,
+      "cls": 0.0022,
+      "clsRuns": [
+        0.0022,
+        0.0022
+      ],
+      "lastFonts": [
+        "t1.kakaocdn.net KakaoBig-Bold-v1.0.woff2 314414",
+        "t1.kakaocdn.net KakaoBig-Regular-v1.0.woff2 305892",
+        "t1.kakaocdn.net KakaoSmall-Regular-v1.0.woff2 463814",
+        "t1.kakaocdn.net KakaoSmall_Bold_OTF.woff2 310794"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 1394914,
+          "cssBytes": 75636,
+          "fontsDone": 402,
+          "fontPhases": {
+            "requested": 295,
+            "queued": 22,
+            "waiting": 28,
+            "downloading": 56
+          },
+          "origins": {
+            "www.kakaocorp.com": {
+              "firstStart": 0,
+              "dns": 8,
+              "connect": 161,
+              "tls": 24,
+              "requests": 13
+            },
+            "t1.kakaocdn.net": {
+              "firstStart": 156,
+              "dns": 6,
+              "connect": 29,
+              "tls": 18,
+              "requests": 47
+            },
+            "connect.facebook.net": {
+              "firstStart": 116,
+              "dns": 12,
+              "connect": 22,
+              "tls": 22,
+              "requests": 2
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 116,
+              "dns": 12,
+              "connect": 112,
+              "tls": 55,
+              "requests": 3
+            },
+            "": {
+              "firstStart": 291,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 13
+            },
+            "www.google-analytics.com": {
+              "firstStart": 628,
+              "dns": 5,
+              "connect": 163,
+              "tls": 122,
+              "requests": 1
+            },
+            "stat.tiara.kakaocorp.com": {
+              "firstStart": 663,
+              "dns": 8,
+              "connect": 28,
+              "tls": 17,
+              "requests": 1
+            },
+            "webid.ad.daum.net": {
+              "firstStart": 777,
+              "dns": 19,
+              "connect": 24,
+              "tls": 15,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 576,
+          "lcp": 936,
+          "cls": 0.0022,
+          "shifts": [
+            [
+              608,
+              0.0022
+            ]
+          ],
+          "faces": {
+            "unloaded": 4,
+            "loaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "t1.kakaocdn.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 1394914,
+          "cssBytes": 75654,
+          "fontsDone": 364,
+          "fontPhases": {
+            "requested": 280,
+            "queued": 14,
+            "waiting": 30,
+            "downloading": 40
+          },
+          "origins": {
+            "www.kakaocorp.com": {
+              "firstStart": 0,
+              "dns": 7,
+              "connect": 32,
+              "tls": 15,
+              "requests": 13
+            },
+            "t1.kakaocdn.net": {
+              "firstStart": 124,
+              "dns": 4,
+              "connect": 17,
+              "tls": 10,
+              "requests": 47
+            },
+            "connect.facebook.net": {
+              "firstStart": 81,
+              "dns": 105,
+              "connect": 9,
+              "tls": 9,
+              "requests": 2
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 82,
+              "dns": 105,
+              "connect": 91,
+              "tls": 52,
+              "requests": 3
+            },
+            "": {
+              "firstStart": 274,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 13
+            },
+            "www.google-analytics.com": {
+              "firstStart": 582,
+              "dns": 11,
+              "connect": 282,
+              "tls": 92,
+              "requests": 1
+            },
+            "webid.ad.daum.net": {
+              "firstStart": 658,
+              "dns": 16,
+              "connect": 201,
+              "tls": 62,
+              "requests": 1
+            },
+            "stat.tiara.kakaocorp.com": {
+              "firstStart": 798,
+              "dns": 38,
+              "connect": 110,
+              "tls": 52,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 556,
+          "lcp": 932,
+          "cls": 0.0022,
+          "shifts": [
+            [
+              606,
+              0.0022
+            ]
+          ],
+          "faces": {
+            "unloaded": 4,
+            "loaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "t1.kakaocdn.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "www.musinsa.com/main/musinsa/recommend": {
+      "runs": 2,
+      "fontFiles": 4,
+      "fontBytes": 3279282,
+      "cssBytes": 39236,
+      "fontsDone": 990,
+      "fontsDoneRuns": [
+        990,
+        708
+      ],
+      "fcp": 840,
+      "fcpRuns": [
+        840,
+        576
+      ],
+      "lcp": 2576,
+      "cls": 0.0452,
+      "clsRuns": [
+        0.045,
+        0.0452
+      ],
+      "lastFonts": [
+        "static.msscdn.net Pretendard-Bold.woff2 828977",
+        "static.msscdn.net Pretendard-Medium.woff2 817989",
+        "static.msscdn.net Pretendard-Regular.woff2 808215",
+        "static.msscdn.net Pretendard-SemiBold.woff2 824101"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 3279280,
+          "cssBytes": 39230,
+          "fontsDone": 990,
+          "fontPhases": {
+            "requested": 849,
+            "queued": 0,
+            "waiting": 57,
+            "downloading": 83
+          },
+          "origins": {
+            "www.musinsa.com": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 20,
+              "tls": 20,
+              "requests": 5
+            },
+            "static.msscdn.net": {
+              "firstStart": 149,
+              "dns": 7,
+              "connect": 20,
+              "tls": 17,
+              "requests": 82
+            },
+            "static.cloudflareinsights.com": {
+              "firstStart": 149,
+              "dns": 7,
+              "connect": 21,
+              "tls": 13,
+              "requests": 1
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 188,
+              "dns": 11,
+              "connect": 129,
+              "tls": 95,
+              "requests": 5
+            },
+            "api.musinsa.com": {
+              "firstStart": 511,
+              "dns": 16,
+              "connect": 33,
+              "tls": 15,
+              "requests": 6
+            },
+            "heathrow.musinsa.com": {
+              "firstStart": 590,
+              "dns": 19,
+              "connect": 33,
+              "tls": 22,
+              "requests": 1
+            },
+            "sr-client-cfg.amplitude.com": {
+              "firstStart": 643,
+              "dns": 11,
+              "connect": 28,
+              "tls": 13,
+              "requests": 3
+            },
+            "www.google.com": {
+              "firstStart": 1038,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 8
+            },
+            "analytics.google.com": {
+              "firstStart": 676,
+              "dns": 7,
+              "connect": 170,
+              "tls": 111,
+              "requests": 3
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 676,
+              "dns": 7,
+              "connect": 170,
+              "tls": 108,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 677,
+              "dns": 16,
+              "connect": 158,
+              "tls": 111,
+              "requests": 3
+            },
+            "log.data.musinsa.com": {
+              "firstStart": 766,
+              "dns": 111,
+              "connect": 63,
+              "tls": 28,
+              "requests": 106
+            },
+            "api.lab.amplitude.com": {
+              "firstStart": 794,
+              "dns": 83,
+              "connect": 63,
+              "tls": 28,
+              "requests": 2
+            },
+            "image.msscdn.net": {
+              "firstStart": 825,
+              "dns": 43,
+              "connect": 32,
+              "tls": 23,
+              "requests": 215
+            },
+            "my.musinsa.com": {
+              "firstStart": 827,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 2
+            },
+            "cart.musinsa.com": {
+              "firstStart": 857,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "t1.kakaocdn.net": {
+              "firstStart": 857,
+              "dns": 20,
+              "connect": 115,
+              "tls": 104,
+              "requests": 2
+            },
+            "static.ads-twitter.com": {
+              "firstStart": 1085,
+              "dns": 7,
+              "connect": 295,
+              "tls": 151,
+              "requests": 1
+            },
+            "static.hotjar.com": {
+              "firstStart": 1085,
+              "dns": 10,
+              "connect": 20,
+              "tls": 12,
+              "requests": 1
+            },
+            "snippet.maze.co": {
+              "firstStart": 1086,
+              "dns": 7,
+              "connect": 25,
+              "tls": 14,
+              "requests": 2
+            },
+            "wcs.naver.net": {
+              "firstStart": 1092,
+              "dns": 9,
+              "connect": 21,
+              "tls": 11,
+              "requests": 1
+            },
+            "s.pinimg.com": {
+              "firstStart": 1094,
+              "dns": 10,
+              "connect": 20,
+              "tls": 13,
+              "requests": 2
+            },
+            "karrot-pixel.business.daangn.com": {
+              "firstStart": 1094,
+              "dns": 10,
+              "connect": 17,
+              "tls": 10,
+              "requests": 1
+            },
+            "connect.facebook.net": {
+              "firstStart": 1095,
+              "dns": 8,
+              "connect": 10,
+              "tls": 10,
+              "requests": 2
+            },
+            "static.criteo.net": {
+              "firstStart": 1095,
+              "dns": 12,
+              "connect": 237,
+              "tls": 149,
+              "requests": 1
+            },
+            "t1.daumcdn.net": {
+              "firstStart": 1095,
+              "dns": 9,
+              "connect": 23,
+              "tls": 13,
+              "requests": 1
+            },
+            "ad.doubleclick.net": {
+              "firstStart": 1129,
+              "dns": 7,
+              "connect": 49,
+              "tls": 49,
+              "requests": 1
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 1135,
+              "dns": 7,
+              "connect": 21,
+              "tls": 12,
+              "requests": 1
+            },
+            "wcs.naver.com": {
+              "firstStart": 1137,
+              "dns": 8,
+              "connect": 21,
+              "tls": 13,
+              "requests": 1
+            },
+            "collect.daangn.com": {
+              "firstStart": 1177,
+              "dns": 8,
+              "connect": 22,
+              "tls": 12,
+              "requests": 2
+            },
+            "ct.pinterest.com": {
+              "firstStart": 1184,
+              "dns": 7,
+              "connect": 35,
+              "tls": 21,
+              "requests": 8
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 1203,
+              "dns": 6,
+              "connect": 21,
+              "tls": 11,
+              "requests": 1
+            },
+            "": {
+              "firstStart": 1247,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 15
+            },
+            "googleads.g.doubleclick.net": {
+              "firstStart": 1302,
+              "dns": 78,
+              "connect": 49,
+              "tls": 49,
+              "requests": 2
+            },
+            "gum.criteo.com": {
+              "firstStart": 1592,
+              "dns": 8,
+              "connect": 210,
+              "tls": 118,
+              "requests": 1
+            },
+            "image.musinsa.com": {
+              "firstStart": 1715,
+              "dns": 12,
+              "connect": 40,
+              "tls": 19,
+              "requests": 31
+            },
+            "bc.ad.daum.net": {
+              "firstStart": 2527,
+              "dns": 14,
+              "connect": 26,
+              "tls": 17,
+              "requests": 1
+            },
+            "sslwidget.criteo.com": {
+              "firstStart": 2534,
+              "dns": 9,
+              "connect": 400,
+              "tls": 169,
+              "requests": 1
+            },
+            "prompts.maze.co": {
+              "firstStart": 2539,
+              "dns": 14,
+              "connect": 810,
+              "tls": 527,
+              "requests": 2
+            },
+            "t.co": {
+              "firstStart": 2574,
+              "dns": 6,
+              "connect": 24,
+              "tls": 16,
+              "requests": 2
+            },
+            "analytics.twitter.com": {
+              "firstStart": 2574,
+              "dns": 8,
+              "connect": 26,
+              "tls": 17,
+              "requests": 2
+            },
+            "api2.amplitude.com": {
+              "firstStart": 3556,
+              "dns": 5,
+              "connect": 290,
+              "tls": 146,
+              "requests": 2
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 840,
+          "lcp": 2576,
+          "cls": 0.045,
+          "shifts": [
+            [
+              1037,
+              0.0012
+            ],
+            [
+              1078,
+              0
+            ],
+            [
+              1133,
+              0
+            ],
+            [
+              1255,
+              0.0008
+            ],
+            [
+              1584,
+              0.0172
+            ],
+            [
+              1722,
+              0.0258
+            ]
+          ],
+          "faces": {
+            "unloaded": 17,
+            "loaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "static.msscdn.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 3279282,
+          "cssBytes": 39236,
+          "fontsDone": 708,
+          "fontPhases": {
+            "requested": 548,
+            "queued": 0,
+            "waiting": 91,
+            "downloading": 69
+          },
+          "origins": {
+            "www.musinsa.com": {
+              "firstStart": 0,
+              "dns": 1,
+              "connect": 21,
+              "tls": 13,
+              "requests": 5
+            },
+            "static.msscdn.net": {
+              "firstStart": 271,
+              "dns": 5,
+              "connect": 11,
+              "tls": 11,
+              "requests": 82
+            },
+            "static.cloudflareinsights.com": {
+              "firstStart": 272,
+              "dns": 5,
+              "connect": 21,
+              "tls": 12,
+              "requests": 1
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 302,
+              "dns": 11,
+              "connect": 90,
+              "tls": 51,
+              "requests": 5
+            },
+            "sr-client-cfg.amplitude.com": {
+              "firstStart": 464,
+              "dns": 6,
+              "connect": 54,
+              "tls": 14,
+              "requests": 4
+            },
+            "api.lab.amplitude.com": {
+              "firstStart": 512,
+              "dns": 5,
+              "connect": 108,
+              "tls": 99,
+              "requests": 2
+            },
+            "api.musinsa.com": {
+              "firstStart": 537,
+              "dns": 85,
+              "connect": 34,
+              "tls": 27,
+              "requests": 6
+            },
+            "image.msscdn.net": {
+              "firstStart": 537,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 215
+            },
+            "my.musinsa.com": {
+              "firstStart": 540,
+              "dns": 28,
+              "connect": 34,
+              "tls": 27,
+              "requests": 2
+            },
+            "cart.musinsa.com": {
+              "firstStart": 594,
+              "dns": 28,
+              "connect": 33,
+              "tls": 27,
+              "requests": 1
+            },
+            "t1.kakaocdn.net": {
+              "firstStart": 594,
+              "dns": 28,
+              "connect": 33,
+              "tls": 26,
+              "requests": 2
+            },
+            "": {
+              "firstStart": 660,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 15
+            },
+            "heathrow.musinsa.com": {
+              "firstStart": 738,
+              "dns": 9,
+              "connect": 17,
+              "tls": 10,
+              "requests": 1
+            },
+            "log.data.musinsa.com": {
+              "firstStart": 858,
+              "dns": 4,
+              "connect": 20,
+              "tls": 9,
+              "requests": 102
+            },
+            "www.google.com": {
+              "firstStart": 1210,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 8
+            },
+            "analytics.google.com": {
+              "firstStart": 932,
+              "dns": 5,
+              "connect": 74,
+              "tls": 44,
+              "requests": 3
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 932,
+              "dns": 5,
+              "connect": 80,
+              "tls": 44,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 953,
+              "dns": 6,
+              "connect": 94,
+              "tls": 51,
+              "requests": 3
+            },
+            "static.ads-twitter.com": {
+              "firstStart": 970,
+              "dns": 9,
+              "connect": 315,
+              "tls": 147,
+              "requests": 1
+            },
+            "static.hotjar.com": {
+              "firstStart": 970,
+              "dns": 8,
+              "connect": 20,
+              "tls": 11,
+              "requests": 1
+            },
+            "snippet.maze.co": {
+              "firstStart": 970,
+              "dns": 8,
+              "connect": 21,
+              "tls": 13,
+              "requests": 2
+            },
+            "wcs.naver.net": {
+              "firstStart": 977,
+              "dns": 4,
+              "connect": 19,
+              "tls": 11,
+              "requests": 1
+            },
+            "s.pinimg.com": {
+              "firstStart": 978,
+              "dns": 9,
+              "connect": 23,
+              "tls": 17,
+              "requests": 2
+            },
+            "karrot-pixel.business.daangn.com": {
+              "firstStart": 979,
+              "dns": 8,
+              "connect": 23,
+              "tls": 17,
+              "requests": 1
+            },
+            "connect.facebook.net": {
+              "firstStart": 979,
+              "dns": 8,
+              "connect": 7,
+              "tls": 7,
+              "requests": 2
+            },
+            "static.criteo.net": {
+              "firstStart": 979,
+              "dns": 8,
+              "connect": 388,
+              "tls": 218,
+              "requests": 1
+            },
+            "t1.daumcdn.net": {
+              "firstStart": 979,
+              "dns": 10,
+              "connect": 19,
+              "tls": 10,
+              "requests": 1
+            },
+            "ad.doubleclick.net": {
+              "firstStart": 1011,
+              "dns": 8,
+              "connect": 130,
+              "tls": 130,
+              "requests": 1
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 1014,
+              "dns": 6,
+              "connect": 29,
+              "tls": 17,
+              "requests": 1
+            },
+            "wcs.naver.com": {
+              "firstStart": 1015,
+              "dns": 7,
+              "connect": 22,
+              "tls": 13,
+              "requests": 1
+            },
+            "collect.daangn.com": {
+              "firstStart": 1069,
+              "dns": 84,
+              "connect": 23,
+              "tls": 12,
+              "requests": 2
+            },
+            "ct.pinterest.com": {
+              "firstStart": 1092,
+              "dns": 62,
+              "connect": 23,
+              "tls": 15,
+              "requests": 6
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 1163,
+              "dns": 7,
+              "connect": 23,
+              "tls": 12,
+              "requests": 1
+            },
+            "image.musinsa.com": {
+              "firstStart": 1317,
+              "dns": 27,
+              "connect": 64,
+              "tls": 34,
+              "requests": 31
+            },
+            "gum.criteo.com": {
+              "firstStart": 1933,
+              "dns": 13,
+              "connect": 246,
+              "tls": 145,
+              "requests": 1
+            },
+            "googleads.g.doubleclick.net": {
+              "firstStart": 1957,
+              "dns": 7,
+              "connect": 52,
+              "tls": 52,
+              "requests": 2
+            },
+            "bc.ad.daum.net": {
+              "firstStart": 2039,
+              "dns": 9,
+              "connect": 107,
+              "tls": 10,
+              "requests": 1
+            },
+            "prompts.maze.co": {
+              "firstStart": 2045,
+              "dns": 4,
+              "connect": 723,
+              "tls": 511,
+              "requests": 2
+            },
+            "t.co": {
+              "firstStart": 2051,
+              "dns": 8,
+              "connect": 108,
+              "tls": 11,
+              "requests": 2
+            },
+            "analytics.twitter.com": {
+              "firstStart": 2051,
+              "dns": 8,
+              "connect": 106,
+              "tls": 10,
+              "requests": 2
+            },
+            "sslwidget.criteo.com": {
+              "firstStart": 2295,
+              "dns": 5,
+              "connect": 180,
+              "tls": 91,
+              "requests": 1
+            },
+            "api2.amplitude.com": {
+              "firstStart": 2887,
+              "dns": 6,
+              "connect": 349,
+              "tls": 213,
+              "requests": 2
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 576,
+          "lcp": 2128,
+          "cls": 0.0452,
+          "shifts": [
+            [
+              670,
+              0.001
+            ],
+            [
+              714,
+              0.0012
+            ],
+            [
+              1200,
+              0.0172
+            ],
+            [
+              1325,
+              0.0258
+            ]
+          ],
+          "faces": {
+            "unloaded": 17,
+            "loaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "static.msscdn.net"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "www.baemin.com/": {
+      "runs": 2,
+      "fontFiles": 2,
+      "fontBytes": 140699,
+      "cssBytes": 31789,
+      "fontsDone": 403,
+      "fontsDoneRuns": [
+        380,
+        403
+      ],
+      "fcp": 468,
+      "fcpRuns": [
+        468,
+        216
+      ],
+      "lcp": 532,
+      "cls": 0.3281,
+      "clsRuns": [
+        0.3281,
+        0.3281
+      ],
+      "lastFonts": [
+        "www.baemin.com BAEMINWORK.otf 140111",
+        "www.baemin.com BAEMINWORK.otf 588"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 140539,
+          "cssBytes": 31788,
+          "fontsDone": 380,
+          "fontPhases": {
+            "requested": 366,
+            "queued": 0,
+            "waiting": 14,
+            "downloading": 0
+          },
+          "origins": {
+            "www.baemin.com": {
+              "firstStart": 0,
+              "dns": 7,
+              "connect": 26,
+              "tls": 13,
+              "requests": 39
+            },
+            "cdn.jsdelivr.net": {
+              "firstStart": 60,
+              "dns": 5,
+              "connect": 20,
+              "tls": 10,
+              "requests": 1
+            },
+            "o432022.ingest.sentry.io": {
+              "firstStart": 263,
+              "dns": 10,
+              "connect": 66,
+              "tls": 54,
+              "requests": 1
+            },
+            "www.google-analytics.com": {
+              "firstStart": 359,
+              "dns": 5,
+              "connect": 95,
+              "tls": 54,
+              "requests": 2
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 595,
+              "dns": 5,
+              "connect": 176,
+              "tls": 139,
+              "requests": 1
+            },
+            "analytics.google.com": {
+              "firstStart": 996,
+              "dns": 5,
+              "connect": 78,
+              "tls": 40,
+              "requests": 2
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 997,
+              "dns": 5,
+              "connect": 81,
+              "tls": 42,
+              "requests": 1
+            },
+            "www.google.com": {
+              "firstStart": 1002,
+              "dns": 7,
+              "connect": 43,
+              "tls": 43,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 1003,
+              "dns": 6,
+              "connect": 83,
+              "tls": 46,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 468,
+          "lcp": 532,
+          "cls": 0.3281,
+          "shifts": [
+            [
+              468,
+              0.3281
+            ]
+          ],
+          "faces": {
+            "unloaded": 1,
+            "loaded": 2
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "www.baemin.com"
+          ],
+          "fontTypes": [
+            "font/otf",
+            ""
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 140699,
+          "cssBytes": 31789,
+          "fontsDone": 403,
+          "fontPhases": {
+            "requested": 326,
+            "queued": 1,
+            "waiting": 76,
+            "downloading": 0
+          },
+          "origins": {
+            "www.baemin.com": {
+              "firstStart": 0,
+              "dns": 32,
+              "connect": 30,
+              "tls": 14,
+              "requests": 41
+            },
+            "cdn.jsdelivr.net": {
+              "firstStart": 83,
+              "dns": 6,
+              "connect": 23,
+              "tls": 12,
+              "requests": 1
+            },
+            "o432022.ingest.sentry.io": {
+              "firstStart": 204,
+              "dns": 7,
+              "connect": 69,
+              "tls": 58,
+              "requests": 5
+            },
+            "www.google-analytics.com": {
+              "firstStart": 333,
+              "dns": 5,
+              "connect": 97,
+              "tls": 50,
+              "requests": 2
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 641,
+              "dns": 7,
+              "connect": 89,
+              "tls": 51,
+              "requests": 1
+            },
+            "analytics.google.com": {
+              "firstStart": 942,
+              "dns": 2,
+              "connect": 169,
+              "tls": 137,
+              "requests": 2
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 943,
+              "dns": 8,
+              "connect": 171,
+              "tls": 43,
+              "requests": 1
+            },
+            "www.google.com": {
+              "firstStart": 948,
+              "dns": 7,
+              "connect": 124,
+              "tls": 124,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 950,
+              "dns": 6,
+              "connect": 183,
+              "tls": 60,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 216,
+          "lcp": 472,
+          "cls": 0.3281,
+          "shifts": [
+            [
+              345,
+              0.3281
+            ]
+          ],
+          "faces": {
+            "unloaded": 2,
+            "loaded": 4
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "www.baemin.com"
+          ],
+          "fontTypes": [
+            "font/otf",
+            ""
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "www.daangn.com/kr/": {
+      "runs": 2,
+      "fontFiles": 10,
+      "fontBytes": 262086,
+      "cssBytes": 104446,
+      "fontsDone": 1148,
+      "fontsDoneRuns": [
+        1148,
+        1044
+      ],
+      "fcp": 1504,
+      "fcpRuns": [
+        1504,
+        1052
+      ],
+      "lcp": 1540,
+      "cls": 0,
+      "clsRuns": [
+        0,
+        0
+      ],
+      "lastFonts": [
+        "www.daangn.com PretendardVariable.subset.79-DviL9-uG.wo 26462",
+        "www.daangn.com PretendardVariable.subset.83-DywfCLl6.wo 27253",
+        "www.daangn.com PretendardVariable.subset.84-DOAypv5o.wo 24770",
+        "www.daangn.com PretendardVariable.subset.85--9jt_HAk.wo 25454",
+        "www.daangn.com PretendardVariable.subset.86-V8Ai4f3U.wo 25966",
+        "www.daangn.com PretendardVariable.subset.87-CwfzGw7H.wo 24890",
+        "www.daangn.com PretendardVariable.subset.88-DJxS5LTL.wo 25888",
+        "www.daangn.com PretendardVariable.subset.89-9DQRdVIV.wo 22074",
+        "www.daangn.com PretendardVariable.subset.90-CaygFE4l.wo 21165",
+        "www.daangn.com PretendardVariable.subset.91-_yN0_362.wo 38164"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 262081,
+          "cssBytes": 104446,
+          "fontsDone": 1148,
+          "fontPhases": {
+            "requested": 1137,
+            "queued": 0,
+            "waiting": 11,
+            "downloading": 0
+          },
+          "origins": {
+            "www.daangn.com": {
+              "firstStart": 0,
+              "dns": 4,
+              "connect": 18,
+              "tls": 17,
+              "requests": 124
+            },
+            "img.kr.gcp-karroter.net": {
+              "firstStart": 999,
+              "dns": 5,
+              "connect": 61,
+              "tls": 50,
+              "requests": 12
+            },
+            "assetstorage.krrt.io": {
+              "firstStart": 1005,
+              "dns": 6,
+              "connect": 12,
+              "tls": 12,
+              "requests": 5
+            },
+            "asset-town.krrt.io": {
+              "firstStart": 1006,
+              "dns": 14,
+              "connect": 13,
+              "tls": 13,
+              "requests": 1
+            },
+            "dnvefa72aowie.cloudfront.net": {
+              "firstStart": 1144,
+              "dns": 5,
+              "connect": 10,
+              "tls": 10,
+              "requests": 6
+            },
+            "o24217.ingest.us.sentry.io": {
+              "firstStart": 1232,
+              "dns": 6,
+              "connect": 118,
+              "tls": 112,
+              "requests": 1
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 1269,
+              "dns": 86,
+              "connect": 77,
+              "tls": 45,
+              "requests": 3
+            },
+            "us-assets.i.posthog.com": {
+              "firstStart": 1275,
+              "dns": 81,
+              "connect": 63,
+              "tls": 34,
+              "requests": 1
+            },
+            "us.i.posthog.com": {
+              "firstStart": 1275,
+              "dns": 80,
+              "connect": 427,
+              "tls": 215,
+              "requests": 1
+            },
+            "maps.karroter.net": {
+              "firstStart": 1301,
+              "dns": 54,
+              "connect": 22,
+              "tls": 16,
+              "requests": 69
+            },
+            "map.kr.karrotmarket.com": {
+              "firstStart": 1302,
+              "dns": 54,
+              "connect": 21,
+              "tls": 13,
+              "requests": 1
+            },
+            "": {
+              "firstStart": 1419,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "www.clarity.ms": {
+              "firstStart": 1817,
+              "dns": 63,
+              "connect": 205,
+              "tls": 124,
+              "requests": 1
+            },
+            "connect.facebook.net": {
+              "firstStart": 1820,
+              "dns": 61,
+              "connect": 11,
+              "tls": 11,
+              "requests": 2
+            },
+            "analytics.tiktok.com": {
+              "firstStart": 1821,
+              "dns": 60,
+              "connect": 57,
+              "tls": 51,
+              "requests": 7
+            },
+            "www.google.com": {
+              "firstStart": 2435,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "analytics.google.com": {
+              "firstStart": 1859,
+              "dns": 23,
+              "connect": 137,
+              "tls": 84,
+              "requests": 1
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 1859,
+              "dns": 23,
+              "connect": 121,
+              "tls": 65,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 1861,
+              "dns": 21,
+              "connect": 154,
+              "tls": 95,
+              "requests": 1
+            },
+            "capi-automation.s3.us-east-2.amazonaws.com": {
+              "firstStart": 2479,
+              "dns": 9,
+              "connect": 439,
+              "tls": 252,
+              "requests": 1
+            },
+            "scripts.clarity.ms": {
+              "firstStart": 2484,
+              "dns": 5,
+              "connect": 17,
+              "tls": 11,
+              "requests": 1
+            },
+            "c.clarity.ms": {
+              "firstStart": 2737,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "analytics-ipv6.tiktokw.us": {
+              "firstStart": 2732,
+              "dns": 5,
+              "connect": 14,
+              "tls": 10,
+              "requests": 2
+            },
+            "k.clarity.ms": {
+              "firstStart": 2812,
+              "dns": 5,
+              "connect": 357,
+              "tls": 180,
+              "requests": 2
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 1504,
+          "lcp": 1540,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 85,
+            "loaded": 10
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "www.daangn.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 262086,
+          "cssBytes": 104438,
+          "fontsDone": 1044,
+          "fontPhases": {
+            "requested": 1022,
+            "queued": 0,
+            "waiting": 21,
+            "downloading": 1
+          },
+          "origins": {
+            "www.daangn.com": {
+              "firstStart": 0,
+              "dns": 4,
+              "connect": 17,
+              "tls": 17,
+              "requests": 124
+            },
+            "img.kr.gcp-karroter.net": {
+              "firstStart": 656,
+              "dns": 6,
+              "connect": 129,
+              "tls": 123,
+              "requests": 12
+            },
+            "assetstorage.krrt.io": {
+              "firstStart": 656,
+              "dns": 5,
+              "connect": 10,
+              "tls": 10,
+              "requests": 5
+            },
+            "asset-town.krrt.io": {
+              "firstStart": 656,
+              "dns": 8,
+              "connect": 10,
+              "tls": 10,
+              "requests": 1
+            },
+            "dnvefa72aowie.cloudfront.net": {
+              "firstStart": 1026,
+              "dns": 8,
+              "connect": 10,
+              "tls": 10,
+              "requests": 6
+            },
+            "o24217.ingest.us.sentry.io": {
+              "firstStart": 1115,
+              "dns": 16,
+              "connect": 54,
+              "tls": 45,
+              "requests": 1
+            },
+            "www.googletagmanager.com": {
+              "firstStart": 1155,
+              "dns": 5,
+              "connect": 164,
+              "tls": 126,
+              "requests": 2
+            },
+            "us-assets.i.posthog.com": {
+              "firstStart": 1160,
+              "dns": 4,
+              "connect": 157,
+              "tls": 127,
+              "requests": 1
+            },
+            "us.i.posthog.com": {
+              "firstStart": 1161,
+              "dns": 5,
+              "connect": 457,
+              "tls": 236,
+              "requests": 1
+            },
+            "maps.karroter.net": {
+              "firstStart": 1183,
+              "dns": 5,
+              "connect": 16,
+              "tls": 14,
+              "requests": 69
+            },
+            "map.kr.karrotmarket.com": {
+              "firstStart": 1183,
+              "dns": 6,
+              "connect": 14,
+              "tls": 9,
+              "requests": 1
+            },
+            "": {
+              "firstStart": 1338,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "www.google.com": {
+              "firstStart": 1936,
+              "dns": 0,
+              "connect": 39,
+              "tls": 39,
+              "requests": 2
+            },
+            "analytics.google.com": {
+              "firstStart": 1685,
+              "dns": 6,
+              "connect": 151,
+              "tls": 115,
+              "requests": 2
+            },
+            "stats.g.doubleclick.net": {
+              "firstStart": 1685,
+              "dns": 6,
+              "connect": 151,
+              "tls": 112,
+              "requests": 1
+            },
+            "www.google.co.kr": {
+              "firstStart": 1692,
+              "dns": 8,
+              "connect": 161,
+              "tls": 47,
+              "requests": 1
+            },
+            "www.clarity.ms": {
+              "firstStart": 1738,
+              "dns": 4,
+              "connect": 168,
+              "tls": 69,
+              "requests": 1
+            },
+            "connect.facebook.net": {
+              "firstStart": 1740,
+              "dns": 7,
+              "connect": 95,
+              "tls": 95,
+              "requests": 2
+            },
+            "analytics.tiktok.com": {
+              "firstStart": 1741,
+              "dns": 6,
+              "connect": 104,
+              "tls": 11,
+              "requests": 7
+            },
+            "capi-automation.s3.us-east-2.amazonaws.com": {
+              "firstStart": 1935,
+              "dns": 5,
+              "connect": 447,
+              "tls": 190,
+              "requests": 1
+            },
+            "scripts.clarity.ms": {
+              "firstStart": 1985,
+              "dns": 145,
+              "connect": 15,
+              "tls": 10,
+              "requests": 1
+            },
+            "c.clarity.ms": {
+              "firstStart": 2071,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "analytics-ipv6.tiktokw.us": {
+              "firstStart": 2192,
+              "dns": 6,
+              "connect": 16,
+              "tls": 11,
+              "requests": 2
+            },
+            "k.clarity.ms": {
+              "firstStart": 2265,
+              "dns": 5,
+              "connect": 432,
+              "tls": 181,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 1052,
+          "lcp": 1052,
+          "cls": 0,
+          "shifts": [],
+          "faces": {
+            "unloaded": 85,
+            "loaded": 10
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "www.daangn.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    },
+    "www.kurly.com/main": {
+      "runs": 2,
+      "fontFiles": 19,
+      "fontBytes": 500572,
+      "cssBytes": 49496,
+      "fontsDone": 928,
+      "fontsDoneRuns": [
+        872,
+        928
+      ],
+      "fcp": 680,
+      "fcpRuns": [
+        680,
+        368
+      ],
+      "lcp": 684,
+      "cls": 0.0347,
+      "clsRuns": [
+        0.0347,
+        0.0347
+      ],
+      "lastFonts": [
+        "res.kurly.com PretendardVariable.subset.5.woff2 34158",
+        "res.kurly.com PretendardVariable.subset.73.woff2 18860",
+        "res.kurly.com PretendardVariable.subset.75.woff2 20520",
+        "res.kurly.com PretendardVariable.subset.76.woff2 25449",
+        "res.kurly.com PretendardVariable.subset.77.woff2 26569",
+        "res.kurly.com PretendardVariable.subset.78.woff2 27072",
+        "res.kurly.com PretendardVariable.subset.79.woff2 26751",
+        "res.kurly.com PretendardVariable.subset.80.woff2 29320",
+        "res.kurly.com PretendardVariable.subset.81.woff2 26823",
+        "res.kurly.com PretendardVariable.subset.82.woff2 27024",
+        "res.kurly.com PretendardVariable.subset.83.woff2 27487",
+        "res.kurly.com PretendardVariable.subset.84.woff2 25019",
+        "res.kurly.com PretendardVariable.subset.85.woff2 25629",
+        "res.kurly.com PretendardVariable.subset.86.woff2 26239",
+        "res.kurly.com PretendardVariable.subset.87.woff2 25189",
+        "res.kurly.com PretendardVariable.subset.88.woff2 26166",
+        "res.kurly.com PretendardVariable.subset.89.woff2 22390",
+        "res.kurly.com PretendardVariable.subset.90.woff2 21377",
+        "res.kurly.com PretendardVariable.subset.91.woff2 38530"
+      ],
+      "runsDetail": [
+        {
+          "fontBytes": 500572,
+          "cssBytes": 49496,
+          "fontsDone": 872,
+          "fontPhases": {
+            "requested": 858,
+            "queued": 0,
+            "waiting": 14,
+            "downloading": 0
+          },
+          "origins": {
+            "www.kurly.com": {
+              "firstStart": 0,
+              "dns": 39,
+              "connect": 25,
+              "tls": 15,
+              "requests": 11
+            },
+            "product-image.kurly.com": {
+              "firstStart": 321,
+              "dns": 8,
+              "connect": 119,
+              "tls": 13,
+              "requests": 9
+            },
+            "res.kurly.com": {
+              "firstStart": 322,
+              "dns": 8,
+              "connect": 33,
+              "tls": 26,
+              "requests": 113
+            },
+            "": {
+              "firstStart": 390,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 2
+            },
+            "o504158.ingest.us.sentry.io": {
+              "firstStart": 447,
+              "dns": 6,
+              "connect": 56,
+              "tls": 48,
+              "requests": 3
+            },
+            "cdn.growthbook.io": {
+              "firstStart": 601,
+              "dns": 10,
+              "connect": 19,
+              "tls": 10,
+              "requests": 2
+            },
+            "www.clarity.ms": {
+              "firstStart": 692,
+              "dns": 12,
+              "connect": 230,
+              "tls": 97,
+              "requests": 1
+            },
+            "websdk.appsflyersdk.com": {
+              "firstStart": 692,
+              "dns": 14,
+              "connect": 10,
+              "tls": 10,
+              "requests": 1
+            },
+            "moderate.kurly.com": {
+              "firstStart": 694,
+              "dns": 9,
+              "connect": 26,
+              "tls": 17,
+              "requests": 2
+            },
+            "auth.kurly.com": {
+              "firstStart": 730,
+              "dns": 9,
+              "connect": 104,
+              "tls": 98,
+              "requests": 1
+            },
+            "api.kurly.com": {
+              "firstStart": 797,
+              "dns": 40,
+              "connect": 24,
+              "tls": 12,
+              "requests": 6
+            },
+            "sr-client-cfg.amplitude.com": {
+              "firstStart": 802,
+              "dns": 35,
+              "connect": 25,
+              "tls": 12,
+              "requests": 2
+            },
+            "wa.onelink.me": {
+              "firstStart": 860,
+              "dns": 11,
+              "connect": 21,
+              "tls": 12,
+              "requests": 2
+            },
+            "scripts.clarity.ms": {
+              "firstStart": 1021,
+              "dns": 8,
+              "connect": 26,
+              "tls": 15,
+              "requests": 1
+            },
+            "c.clarity.ms": {
+              "firstStart": 1255,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "karrot-pixel.business.daangn.com": {
+              "firstStart": 1126,
+              "dns": 7,
+              "connect": 21,
+              "tls": 13,
+              "requests": 1
+            },
+            "static.toss.im": {
+              "firstStart": 1126,
+              "dns": 7,
+              "connect": 37,
+              "tls": 30,
+              "requests": 1
+            },
+            "dynamic.criteo.com": {
+              "firstStart": 1126,
+              "dns": 7,
+              "connect": 232,
+              "tls": 140,
+              "requests": 1
+            },
+            "wcs.naver.net": {
+              "firstStart": 1126,
+              "dns": 6,
+              "connect": 22,
+              "tls": 12,
+              "requests": 1
+            },
+            "static.ads-twitter.com": {
+              "firstStart": 1126,
+              "dns": 6,
+              "connect": 369,
+              "tls": 140,
+              "requests": 1
+            },
+            "wa.appsflyersdk.com": {
+              "firstStart": 1136,
+              "dns": 1,
+              "connect": 27,
+              "tls": 18,
+              "requests": 2
+            },
+            "connect.facebook.net": {
+              "firstStart": 1142,
+              "dns": 8,
+              "connect": 14,
+              "tls": 14,
+              "requests": 2
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 1171,
+              "dns": 11,
+              "connect": 23,
+              "tls": 12,
+              "requests": 1
+            },
+            "karrot-dsp-conversion-event.daangn.com": {
+              "firstStart": 1174,
+              "dns": 9,
+              "connect": 21,
+              "tls": 12,
+              "requests": 1
+            },
+            "u.clarity.ms": {
+              "firstStart": 1203,
+              "dns": 5,
+              "connect": 376,
+              "tls": 190,
+              "requests": 1
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 1259,
+              "dns": 6,
+              "connect": 124,
+              "tls": 26,
+              "requests": 1
+            },
+            "collect.daangn.com": {
+              "firstStart": 1576,
+              "dns": 7,
+              "connect": 21,
+              "tls": 12,
+              "requests": 1
+            },
+            "wcs.naver.com": {
+              "firstStart": 1582,
+              "dns": 6,
+              "connect": 21,
+              "tls": 11,
+              "requests": 1
+            },
+            "gum.criteo.com": {
+              "firstStart": 1615,
+              "dns": 9,
+              "connect": 427,
+              "tls": 258,
+              "requests": 1
+            },
+            "lex.toss.im": {
+              "firstStart": 1618,
+              "dns": 9,
+              "connect": 27,
+              "tls": 19,
+              "requests": 2
+            },
+            "t.co": {
+              "firstStart": 1683,
+              "dns": 5,
+              "connect": 29,
+              "tls": 23,
+              "requests": 2
+            },
+            "analytics.twitter.com": {
+              "firstStart": 1683,
+              "dns": 5,
+              "connect": 28,
+              "tls": 22,
+              "requests": 2
+            },
+            "applog.kurly.com": {
+              "firstStart": 1979,
+              "dns": 11,
+              "connect": 20,
+              "tls": 10,
+              "requests": 4
+            },
+            "sslwidget.criteo.com": {
+              "firstStart": 2224,
+              "dns": 5,
+              "connect": 235,
+              "tls": 120,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 680,
+          "lcp": 684,
+          "cls": 0.0347,
+          "shifts": [
+            [
+              861,
+              0.0015
+            ],
+            [
+              958,
+              0.0332
+            ]
+          ],
+          "faces": {
+            "unloaded": 74,
+            "loaded": 19
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "res.kurly.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        },
+        {
+          "fontBytes": 500572,
+          "cssBytes": 49496,
+          "fontsDone": 928,
+          "fontPhases": {
+            "requested": 867,
+            "queued": 0,
+            "waiting": 61,
+            "downloading": 0
+          },
+          "origins": {
+            "www.kurly.com": {
+              "firstStart": 0,
+              "dns": 5,
+              "connect": 82,
+              "tls": 14,
+              "requests": 11
+            },
+            "product-image.kurly.com": {
+              "firstStart": 227,
+              "dns": 4,
+              "connect": 18,
+              "tls": 13,
+              "requests": 9
+            },
+            "res.kurly.com": {
+              "firstStart": 227,
+              "dns": 4,
+              "connect": 117,
+              "tls": 104,
+              "requests": 113
+            },
+            "": {
+              "firstStart": 295,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 2
+            },
+            "o504158.ingest.us.sentry.io": {
+              "firstStart": 425,
+              "dns": 5,
+              "connect": 58,
+              "tls": 47,
+              "requests": 4
+            },
+            "cdn.growthbook.io": {
+              "firstStart": 561,
+              "dns": 8,
+              "connect": 20,
+              "tls": 10,
+              "requests": 2
+            },
+            "www.clarity.ms": {
+              "firstStart": 661,
+              "dns": 5,
+              "connect": 499,
+              "tls": 429,
+              "requests": 1
+            },
+            "websdk.appsflyersdk.com": {
+              "firstStart": 661,
+              "dns": 6,
+              "connect": 13,
+              "tls": 13,
+              "requests": 1
+            },
+            "moderate.kurly.com": {
+              "firstStart": 663,
+              "dns": 7,
+              "connect": 19,
+              "tls": 10,
+              "requests": 2
+            },
+            "auth.kurly.com": {
+              "firstStart": 700,
+              "dns": 5,
+              "connect": 15,
+              "tls": 9,
+              "requests": 1
+            },
+            "api.kurly.com": {
+              "firstStart": 765,
+              "dns": 5,
+              "connect": 101,
+              "tls": 22,
+              "requests": 7
+            },
+            "sr-client-cfg.amplitude.com": {
+              "firstStart": 772,
+              "dns": 7,
+              "connect": 17,
+              "tls": 9,
+              "requests": 2
+            },
+            "wa.onelink.me": {
+              "firstStart": 886,
+              "dns": 42,
+              "connect": 29,
+              "tls": 15,
+              "requests": 2
+            },
+            "wa.appsflyersdk.com": {
+              "firstStart": 1112,
+              "dns": 5,
+              "connect": 23,
+              "tls": 18,
+              "requests": 2
+            },
+            "scripts.clarity.ms": {
+              "firstStart": 1330,
+              "dns": 7,
+              "connect": 104,
+              "tls": 98,
+              "requests": 1
+            },
+            "c.clarity.ms": {
+              "firstStart": 1618,
+              "dns": 0,
+              "connect": 0,
+              "tls": 0,
+              "requests": 1
+            },
+            "karrot-pixel.business.daangn.com": {
+              "firstStart": 1512,
+              "dns": 15,
+              "connect": 14,
+              "tls": 10,
+              "requests": 1
+            },
+            "static.toss.im": {
+              "firstStart": 1512,
+              "dns": 15,
+              "connect": 37,
+              "tls": 23,
+              "requests": 1
+            },
+            "dynamic.criteo.com": {
+              "firstStart": 1512,
+              "dns": 14,
+              "connect": 346,
+              "tls": 175,
+              "requests": 1
+            },
+            "wcs.naver.net": {
+              "firstStart": 1512,
+              "dns": 14,
+              "connect": 22,
+              "tls": 8,
+              "requests": 1
+            },
+            "static.ads-twitter.com": {
+              "firstStart": 1512,
+              "dns": 14,
+              "connect": 281,
+              "tls": 142,
+              "requests": 1
+            },
+            "connect.facebook.net": {
+              "firstStart": 1531,
+              "dns": 10,
+              "connect": 8,
+              "tls": 8,
+              "requests": 2
+            },
+            "karrot-dsp-conversion-event.daangn.com": {
+              "firstStart": 1554,
+              "dns": 10,
+              "connect": 27,
+              "tls": 11,
+              "requests": 1
+            },
+            "ssl.pstatic.net": {
+              "firstStart": 1565,
+              "dns": 6,
+              "connect": 22,
+              "tls": 11,
+              "requests": 1
+            },
+            "l.clarity.ms": {
+              "firstStart": 1569,
+              "dns": 5,
+              "connect": 397,
+              "tls": 196,
+              "requests": 1
+            },
+            "nam.veta.naver.com": {
+              "firstStart": 1615,
+              "dns": 6,
+              "connect": 21,
+              "tls": 12,
+              "requests": 1
+            },
+            "applog.kurly.com": {
+              "firstStart": 1884,
+              "dns": 76,
+              "connect": 18,
+              "tls": 12,
+              "requests": 4
+            },
+            "t.co": {
+              "firstStart": 1981,
+              "dns": 5,
+              "connect": 18,
+              "tls": 10,
+              "requests": 2
+            },
+            "analytics.twitter.com": {
+              "firstStart": 1982,
+              "dns": 6,
+              "connect": 19,
+              "tls": 12,
+              "requests": 2
+            },
+            "collect.daangn.com": {
+              "firstStart": 2331,
+              "dns": 5,
+              "connect": 20,
+              "tls": 9,
+              "requests": 1
+            },
+            "wcs.naver.com": {
+              "firstStart": 2335,
+              "dns": 7,
+              "connect": 13,
+              "tls": 8,
+              "requests": 1
+            },
+            "gum.criteo.com": {
+              "firstStart": 2360,
+              "dns": 0,
+              "connect": 203,
+              "tls": 96,
+              "requests": 1
+            },
+            "lex.toss.im": {
+              "firstStart": 2372,
+              "dns": 5,
+              "connect": 113,
+              "tls": 106,
+              "requests": 2
+            },
+            "sslwidget.criteo.com": {
+              "firstStart": 2685,
+              "dns": 5,
+              "connect": 171,
+              "tls": 89,
+              "requests": 1
+            }
+          },
+          "edgeMissAll": {},
+          "fcp": 368,
+          "lcp": 596,
+          "cls": 0.0347,
+          "shifts": [
+            [
+              869,
+              0.0015
+            ],
+            [
+              977,
+              0.0332
+            ]
+          ],
+          "faces": {
+            "unloaded": 74,
+            "loaded": 19
+          },
+          "unusedPreloads": [],
+          "fontHosts": [
+            "res.kurly.com"
+          ],
+          "fontTypes": [
+            "font/woff2"
+          ],
+          "edgeMiss": 0
+        }
+      ]
+    }
+  }
+}
