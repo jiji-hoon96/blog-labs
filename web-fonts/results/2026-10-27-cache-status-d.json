@@ -1,0 +1,397 @@
+{
+ "url": "https://hooninedev-web-fonts.netlify.app/full-d-google/",
+ "measuredAt": "2026-10-27T01:54:24.244Z",
+ "throttle": {
+  "latency": 165,
+  "downloadKbps": 8100,
+  "uploadKbps": 1350
+ },
+ "results": [
+  {
+   "run": 1,
+   "fontsDoneMs": 1414,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535370",
+    "ttfbMs": 75
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 2,
+   "fontsDoneMs": 1431,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535845",
+    "ttfbMs": 173
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 3,
+   "fontsDoneMs": 1441,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535487",
+    "ttfbMs": 74
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 4,
+   "fontsDoneMs": 1419,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535301",
+    "ttfbMs": 78
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 5,
+   "fontsDoneMs": 3996,
+   "lastFont": {
+    "name": "serif-117.woff2",
+    "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+    "ttfbMs": 2054
+   },
+   "fontMisses": [
+    {
+     "name": "serif-latin.woff2",
+     "ttfbMs": 607,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "inter-latin.woff2",
+     "ttfbMs": 607,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-119.woff2",
+     "ttfbMs": 469,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-118.woff2",
+     "ttfbMs": 395,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-117.woff2",
+     "ttfbMs": 385,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-116.woff2",
+     "ttfbMs": 543,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-115.woff2",
+     "ttfbMs": 690,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "mono-latin.woff2",
+     "ttfbMs": 458,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-114.woff2",
+     "ttfbMs": 395,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-108.woff2",
+     "ttfbMs": 651,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-107.woff2",
+     "ttfbMs": 468,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-113.woff2",
+     "ttfbMs": 457,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-112.woff2",
+     "ttfbMs": 531,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-111.woff2",
+     "ttfbMs": 605,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-110.woff2",
+     "ttfbMs": 541,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-109.woff2",
+     "ttfbMs": 541,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-104.woff2",
+     "ttfbMs": 542,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-119.woff2",
+     "ttfbMs": 604,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-118.woff2",
+     "ttfbMs": 604,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-117.woff2",
+     "ttfbMs": 2054,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-116.woff2",
+     "ttfbMs": 617,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-101.woff2",
+     "ttfbMs": 603,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-105.woff2",
+     "ttfbMs": 465,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-106.woff2",
+     "ttfbMs": 528,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-56.woff2",
+     "ttfbMs": 527,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "inter-italic-latin.woff2",
+     "ttfbMs": 600,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-114.woff2",
+     "ttfbMs": 536,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-103.woff2",
+     "ttfbMs": 796,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    }
+   ],
+   "otherMisses": [
+    "Document",
+    "Stylesheet",
+    "Other"
+   ],
+   "fonts": 28
+  },
+  {
+   "run": 6,
+   "fontsDoneMs": 1385,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535178",
+    "ttfbMs": 74
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 7,
+   "fontsDoneMs": 1423,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; hit; ttl=31535310",
+    "ttfbMs": 78
+   },
+   "fontMisses": [],
+   "otherMisses": [],
+   "fonts": 28
+  },
+  {
+   "run": 8,
+   "fontsDoneMs": 2208,
+   "lastFont": {
+    "name": "inter-latin.woff2",
+    "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+    "ttfbMs": 592
+   },
+   "fontMisses": [
+    {
+     "name": "serif-latin.woff2",
+     "ttfbMs": 382,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "inter-latin.woff2",
+     "ttfbMs": 592,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-119.woff2",
+     "ttfbMs": 592,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-118.woff2",
+     "ttfbMs": 592,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-117.woff2",
+     "ttfbMs": 376,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-116.woff2",
+     "ttfbMs": 381,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-115.woff2",
+     "ttfbMs": 522,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "mono-latin.woff2",
+     "ttfbMs": 578,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-114.woff2",
+     "ttfbMs": 306,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-108.woff2",
+     "ttfbMs": 313,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-107.woff2",
+     "ttfbMs": 507,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-113.woff2",
+     "ttfbMs": 519,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-112.woff2",
+     "ttfbMs": 506,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-111.woff2",
+     "ttfbMs": 519,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-110.woff2",
+     "ttfbMs": 301,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-109.woff2",
+     "ttfbMs": 519,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-104.woff2",
+     "ttfbMs": 538,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-119.woff2",
+     "ttfbMs": 305,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-118.woff2",
+     "ttfbMs": 503,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-117.woff2",
+     "ttfbMs": 373,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-116.woff2",
+     "ttfbMs": 523,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-101.woff2",
+     "ttfbMs": 526,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-105.woff2",
+     "ttfbMs": 575,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-106.woff2",
+     "ttfbMs": 372,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-56.woff2",
+     "ttfbMs": 377,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "inter-italic-latin.woff2",
+     "ttfbMs": 518,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "serif-114.woff2",
+     "ttfbMs": 513,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    },
+    {
+     "name": "nskr-103.woff2",
+     "ttfbMs": 571,
+     "cacheStatus": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+    }
+   ],
+   "otherMisses": [
+    "Document",
+    "Stylesheet",
+    "Other"
+   ],
+   "fonts": 28
+  }
+ ]
+}
