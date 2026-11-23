@@ -1,0 +1,3058 @@
+{
+ "url": "http://localhost:4200/b-thumb-sample/",
+ "at": "2026-11-20T09:06:12.521Z",
+ "disableCache": false,
+ "footer": [
+  "8.0 MB transferred",
+  "40 requests8.0 MB transferred8.0 MB resourcesFinish: 58 msDOMContentLoaded: 15 msLoad: 55 ms"
+ ],
+ "reqs": [
+  {
+   "url": "http://localhost:4200/b-thumb-sample/",
+   "type": "Document",
+   "initiator": {
+    "type": "other"
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Connection": "keep-alive",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "Keep-Alive": "timeout=5",
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "content-type": "text/html; charset=utf-8"
+   },
+   "mime": "text/html",
+   "bytes": 4287
+  },
+  {
+   "url": "http://localhost:4200/shared/style.css",
+   "type": "Stylesheet",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 5,
+    "columnNumber": 50
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "text/css",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/css",
+   "bytes": 749
+  },
+  {
+   "url": "http://localhost:4200/shared/page.js",
+   "type": "Script",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 34,
+    "columnNumber": 32
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "text/javascript",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/javascript",
+   "bytes": 2024
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-00-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4336
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-01-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4104
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-02-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4094
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-03-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4287
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-04-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3835
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-05-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3792
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-06-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4197
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-07-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4405
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-08-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3684
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-09-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4162
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-10-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4152
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-11-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3932
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-12-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3951
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-13-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4390
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-14-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4172
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-15-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3977
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-16-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4098
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-17-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4555
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-18-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3639
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-19-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4089
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-20-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4389
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-21-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 3522
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-22-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4058
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-23-thumb.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [],
+     "parent": {
+      "description": "Image",
+      "callFrames": [
+       {
+        "functionName": "img",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 15,
+        "columnNumber": 10
+       },
+       {
+        "functionName": "sampleColor",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 10,
+        "columnNumber": 20
+       },
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 33,
+        "columnNumber": 26
+       }
+      ],
+      "parent": {
+       "description": "setTimeout",
+       "callFrames": [
+        {
+         "functionName": "",
+         "scriptId": "8",
+         "url": "http://localhost:4200/shared/page.js",
+         "lineNumber": 31,
+         "columnNumber": 2
+        }
+       ]
+      }
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 4248
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-00.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 686645
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-01.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 719419
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-02.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 531555
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-03.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 821763
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-04.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 847108
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-05.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 530040
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-06.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 659044
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-07.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 551329
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-08.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 494346
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-09.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 853445
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-10.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 765231
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-11.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/b-thumb-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 466530
+  },
+  {
+   "url": "http://localhost:4200/favicon.ico",
+   "type": "Other",
+   "initiator": {
+    "type": "other"
+   },
+   "status": 404,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:05:54 GMT",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/plain",
+   "bytes": 143
+  }
+ ],
+ "page": {
+  "rt": [
+   {
+    "n": "http://127.0.0.1:4201/card-00-thumb.png",
+    "i": "img",
+    "ts": 4382,
+    "eb": 4082,
+    "db": 4082,
+    "dur": 3
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-01-thumb.png",
+    "i": "img",
+    "ts": 4150,
+    "eb": 3850,
+    "db": 3850,
+    "dur": 3
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-02-thumb.png",
+    "i": "img",
+    "ts": 4140,
+    "eb": 3840,
+    "db": 3840,
+    "dur": 2
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-03-thumb.png",
+    "i": "img",
+    "ts": 4333,
+    "eb": 4033,
+    "db": 4033,
+    "dur": 3
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-04-thumb.png",
+    "i": "img",
+    "ts": 3881,
+    "eb": 3581,
+    "db": 3581,
+    "dur": 3
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-05-thumb.png",
+    "i": "img",
+    "ts": 3838,
+    "eb": 3538,
+    "db": 3538,
+    "dur": 3
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-06-thumb.png",
+    "i": "img",
+    "ts": 4243,
+    "eb": 3943,
+    "db": 3943,
+    "dur": 4
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-07-thumb.png",
+    "i": "img",
+    "ts": 4450,
+    "eb": 4150,
+    "db": 4150,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-08-thumb.png",
+    "i": "img",
+    "ts": 3730,
+    "eb": 3430,
+    "db": 3430,
+    "dur": 5
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-09-thumb.png",
+    "i": "img",
+    "ts": 4208,
+    "eb": 3908,
+    "db": 3908,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-10-thumb.png",
+    "i": "img",
+    "ts": 4198,
+    "eb": 3898,
+    "db": 3898,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-11-thumb.png",
+    "i": "img",
+    "ts": 3978,
+    "eb": 3678,
+    "db": 3678,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-12-thumb.png",
+    "i": "img",
+    "ts": 3997,
+    "eb": 3697,
+    "db": 3697,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-13-thumb.png",
+    "i": "img",
+    "ts": 4435,
+    "eb": 4135,
+    "db": 4135,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-14-thumb.png",
+    "i": "img",
+    "ts": 4218,
+    "eb": 3918,
+    "db": 3918,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-15-thumb.png",
+    "i": "img",
+    "ts": 4023,
+    "eb": 3723,
+    "db": 3723,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-16-thumb.png",
+    "i": "img",
+    "ts": 4144,
+    "eb": 3844,
+    "db": 3844,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-18-thumb.png",
+    "i": "img",
+    "ts": 3685,
+    "eb": 3385,
+    "db": 3385,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-17-thumb.png",
+    "i": "img",
+    "ts": 4600,
+    "eb": 4300,
+    "db": 4300,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-19-thumb.png",
+    "i": "img",
+    "ts": 4135,
+    "eb": 3835,
+    "db": 3835,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-20-thumb.png",
+    "i": "img",
+    "ts": 4434,
+    "eb": 4134,
+    "db": 4134,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-21-thumb.png",
+    "i": "img",
+    "ts": 3568,
+    "eb": 3268,
+    "db": 3268,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-22-thumb.png",
+    "i": "img",
+    "ts": 4104,
+    "eb": 3804,
+    "db": 3804,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-23-thumb.png",
+    "i": "img",
+    "ts": 4294,
+    "eb": 3994,
+    "db": 3994,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-00.png",
+    "i": "img",
+    "ts": 686689,
+    "eb": 686389,
+    "db": 686389,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-02.png",
+    "i": "img",
+    "ts": 531599,
+    "eb": 531299,
+    "db": 531299,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-01.png",
+    "i": "img",
+    "ts": 719463,
+    "eb": 719163,
+    "db": 719163,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-04.png",
+    "i": "img",
+    "ts": 847152,
+    "eb": 846852,
+    "db": 846852,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-05.png",
+    "i": "img",
+    "ts": 530084,
+    "eb": 529784,
+    "db": 529784,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-03.png",
+    "i": "img",
+    "ts": 821807,
+    "eb": 821507,
+    "db": 821507,
+    "dur": 12
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-06.png",
+    "i": "img",
+    "ts": 659088,
+    "eb": 658788,
+    "db": 658788,
+    "dur": 14
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-07.png",
+    "i": "img",
+    "ts": 551373,
+    "eb": 551073,
+    "db": 551073,
+    "dur": 14
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-08.png",
+    "i": "img",
+    "ts": 494390,
+    "eb": 494090,
+    "db": 494090,
+    "dur": 13
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-10.png",
+    "i": "img",
+    "ts": 765275,
+    "eb": 764975,
+    "db": 764975,
+    "dur": 15
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-09.png",
+    "i": "img",
+    "ts": 853489,
+    "eb": 853189,
+    "db": 853189,
+    "dur": 16
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-11.png",
+    "i": "img",
+    "ts": 466574,
+    "eb": 466274,
+    "db": 466274,
+    "dur": 17
+   }
+  ],
+  "lcp": {
+   "t": 116,
+   "url": "http://127.0.0.1:4201/card-00.png",
+   "size": 46206
+  },
+  "vis": "visible",
+  "bg": [],
+  "imgs": [
+   {
+    "src": "http://127.0.0.1:4201/card-00.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-01.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-02.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-03.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-04.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-05.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-06.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-07.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-08.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-09.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-10.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-11.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-12.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-13.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-14.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-15.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-16.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-17.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-18.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-19.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-20.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-21.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-22.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-23.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   }
+  ],
+  "mut": [
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 12,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 13,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   }
+  ]
+ }
+}

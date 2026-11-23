@@ -1,0 +1,2962 @@
+{
+ "url": "http://localhost:4200/a-full-sample/",
+ "at": "2026-11-20T09:10:50.705Z",
+ "disableCache": true,
+ "footer": [
+  "24.7 MB transferred",
+  "40 requests24.7 MB transferred24.7 MB resourcesFinish: 932 msDOMContentLoaded: 13 msLoad: 928 ms"
+ ],
+ "reqs": [
+  {
+   "url": "http://localhost:4200/a-full-sample/",
+   "type": "Document",
+   "initiator": {
+    "type": "other"
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Connection": "keep-alive",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "Keep-Alive": "timeout=5",
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "content-type": "text/html; charset=utf-8"
+   },
+   "mime": "text/html",
+   "bytes": 4284
+  },
+  {
+   "url": "http://localhost:4200/shared/style.css",
+   "type": "Stylesheet",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 5,
+    "columnNumber": 50
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "text/css",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/css",
+   "bytes": 749
+  },
+  {
+   "url": "http://localhost:4200/shared/page.js",
+   "type": "Script",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 34,
+    "columnNumber": 32
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "text/javascript",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/javascript",
+   "bytes": 2024
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-00.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 686645
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-01.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 719419
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-02.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 531555
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-03.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 821763
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-04.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 847108
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-05.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 530040
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-06.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 659044
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-07.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 551329
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-08.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 494346
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-09.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 853445
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-10.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 765231
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-11.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 466530
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-12.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 537132
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-13.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 792953
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-14.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 851779
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-15.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 598051
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-16.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 666811
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-17.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 681259
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-18.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 433179
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-19.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 728131
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-20.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 1280760
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-21.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 305314
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-22.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 1207714
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-23.png",
+   "type": "Image",
+   "initiator": {
+    "type": "script",
+    "stack": {
+     "callFrames": [
+      {
+       "functionName": "img",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 15,
+       "columnNumber": 10
+      },
+      {
+       "functionName": "sampleColor",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 10,
+       "columnNumber": 20
+      },
+      {
+       "functionName": "",
+       "scriptId": "8",
+       "url": "http://localhost:4200/shared/page.js",
+       "lineNumber": 32,
+       "columnNumber": 25
+      }
+     ],
+     "parent": {
+      "description": "setTimeout",
+      "callFrames": [
+       {
+        "functionName": "",
+        "scriptId": "8",
+        "url": "http://localhost:4200/shared/page.js",
+        "lineNumber": 31,
+        "columnNumber": 2
+       }
+      ]
+     }
+    }
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 784235
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-00.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 686645
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-01.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 719419
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-02.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 531555
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-03.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 821763
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-04.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 847108
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-05.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 530040
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-06.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 659044
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-07.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 551329
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-08.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 494346
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-09.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 853445
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-10.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 765231
+  },
+  {
+   "url": "http://127.0.0.1:4201/card-11.png",
+   "type": "Image",
+   "initiator": {
+    "type": "parser",
+    "url": "http://localhost:4200/a-full-sample/",
+    "lineNumber": 37,
+    "columnNumber": 1
+   },
+   "status": 200,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "cache-control": "max-age=86400",
+    "timing-allow-origin": "*",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:32 GMT",
+    "content-type": "image/png"
+   },
+   "mime": "image/png",
+   "bytes": 466530
+  },
+  {
+   "url": "http://localhost:4200/favicon.ico",
+   "type": "Other",
+   "initiator": {
+    "type": "other"
+   },
+   "status": 404,
+   "protocol": "http/1.1",
+   "headers": {
+    "Transfer-Encoding": "chunked",
+    "Keep-Alive": "timeout=5",
+    "Date": "Fri, 20 Nov 2026 09:10:33 GMT",
+    "Connection": "keep-alive"
+   },
+   "mime": "text/plain",
+   "bytes": 143
+  }
+ ],
+ "page": {
+  "rt": [
+   {
+    "n": "http://127.0.0.1:4201/card-00.png",
+    "i": "img",
+    "ts": 686689,
+    "eb": 686389,
+    "db": 686389,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-01.png",
+    "i": "img",
+    "ts": 719463,
+    "eb": 719163,
+    "db": 719163,
+    "dur": 8
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-02.png",
+    "i": "img",
+    "ts": 531599,
+    "eb": 531299,
+    "db": 531299,
+    "dur": 6
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-03.png",
+    "i": "img",
+    "ts": 821807,
+    "eb": 821507,
+    "db": 821507,
+    "dur": 9
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-05.png",
+    "i": "img",
+    "ts": 530084,
+    "eb": 529784,
+    "db": 529784,
+    "dur": 7
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-04.png",
+    "i": "img",
+    "ts": 847152,
+    "eb": 846852,
+    "db": 846852,
+    "dur": 9
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-06.png",
+    "i": "img",
+    "ts": 659088,
+    "eb": 658788,
+    "db": 658788,
+    "dur": 11
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-07.png",
+    "i": "img",
+    "ts": 551373,
+    "eb": 551073,
+    "db": 551073,
+    "dur": 13
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-08.png",
+    "i": "img",
+    "ts": 494390,
+    "eb": 494090,
+    "db": 494090,
+    "dur": 12
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-09.png",
+    "i": "img",
+    "ts": 853489,
+    "eb": 853189,
+    "db": 853189,
+    "dur": 14
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-11.png",
+    "i": "img",
+    "ts": 466574,
+    "eb": 466274,
+    "db": 466274,
+    "dur": 13
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-10.png",
+    "i": "img",
+    "ts": 765275,
+    "eb": 764975,
+    "db": 764975,
+    "dur": 14
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-12.png",
+    "i": "img",
+    "ts": 537176,
+    "eb": 536876,
+    "db": 536876,
+    "dur": 15
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-13.png",
+    "i": "img",
+    "ts": 792997,
+    "eb": 792697,
+    "db": 792697,
+    "dur": 18
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-14.png",
+    "i": "img",
+    "ts": 851823,
+    "eb": 851523,
+    "db": 851523,
+    "dur": 19
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-15.png",
+    "i": "img",
+    "ts": 598095,
+    "eb": 597795,
+    "db": 597795,
+    "dur": 18
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-16.png",
+    "i": "img",
+    "ts": 666855,
+    "eb": 666555,
+    "db": 666555,
+    "dur": 20
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-17.png",
+    "i": "img",
+    "ts": 681303,
+    "eb": 681003,
+    "db": 681003,
+    "dur": 20
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-18.png",
+    "i": "img",
+    "ts": 433223,
+    "eb": 432923,
+    "db": 432923,
+    "dur": 20
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-19.png",
+    "i": "img",
+    "ts": 728175,
+    "eb": 727875,
+    "db": 727875,
+    "dur": 22
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-21.png",
+    "i": "img",
+    "ts": 305358,
+    "eb": 305058,
+    "db": 305058,
+    "dur": 22
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-20.png",
+    "i": "img",
+    "ts": 1280803,
+    "eb": 1280503,
+    "db": 1280503,
+    "dur": 26
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-23.png",
+    "i": "img",
+    "ts": 784279,
+    "eb": 783979,
+    "db": 783979,
+    "dur": 25
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-22.png",
+    "i": "img",
+    "ts": 1207757,
+    "eb": 1207457,
+    "db": 1207457,
+    "dur": 27
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-00.png",
+    "i": "img",
+    "ts": 686689,
+    "eb": 686389,
+    "db": 686389,
+    "dur": 20
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-01.png",
+    "i": "img",
+    "ts": 719463,
+    "eb": 719163,
+    "db": 719163,
+    "dur": 21
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-02.png",
+    "i": "img",
+    "ts": 531599,
+    "eb": 531299,
+    "db": 531299,
+    "dur": 21
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-03.png",
+    "i": "img",
+    "ts": 821807,
+    "eb": 821507,
+    "db": 821507,
+    "dur": 25
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-04.png",
+    "i": "img",
+    "ts": 847152,
+    "eb": 846852,
+    "db": 846852,
+    "dur": 26
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-05.png",
+    "i": "img",
+    "ts": 530084,
+    "eb": 529784,
+    "db": 529784,
+    "dur": 25
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-06.png",
+    "i": "img",
+    "ts": 659088,
+    "eb": 658788,
+    "db": 658788,
+    "dur": 26
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-08.png",
+    "i": "img",
+    "ts": 494390,
+    "eb": 494090,
+    "db": 494090,
+    "dur": 26
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-07.png",
+    "i": "img",
+    "ts": 551373,
+    "eb": 551073,
+    "db": 551073,
+    "dur": 27
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-09.png",
+    "i": "img",
+    "ts": 853489,
+    "eb": 853189,
+    "db": 853189,
+    "dur": 29
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-10.png",
+    "i": "img",
+    "ts": 765275,
+    "eb": 764975,
+    "db": 764975,
+    "dur": 29
+   },
+   {
+    "n": "http://127.0.0.1:4201/card-11.png",
+    "i": "img",
+    "ts": 466574,
+    "eb": 466274,
+    "db": 466274,
+    "dur": 28
+   }
+  ],
+  "lcp": {
+   "t": 232,
+   "url": "http://127.0.0.1:4201/card-00.png",
+   "size": 46206
+  },
+  "vis": "visible",
+  "bg": [],
+  "imgs": [
+   {
+    "src": "http://127.0.0.1:4201/card-00.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-01.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-02.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 760,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-03.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-04.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-05.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1140,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-06.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-07.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-08.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1520,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-09.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-10.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-11.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 3200,
+    "nh": 2160,
+    "w": 302,
+    "h": 170,
+    "top": 1900,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-12.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-13.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-14.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2280,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-15.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-16.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-17.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 2660,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-18.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-19.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-20.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3040,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-21.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-22.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   },
+   {
+    "src": "http://127.0.0.1:4201/card-23.png",
+    "srcset": null,
+    "picture": false,
+    "loading": "lazy",
+    "nw": 0,
+    "nh": 0,
+    "w": 302,
+    "h": 170,
+    "top": 3420,
+    "hiddenBy": null
+   }
+  ],
+  "mut": [
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-00.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-01.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-02.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-03.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-04.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-05.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-06.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-07.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-08.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-09.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-10.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-11.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-12.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-13.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-14.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-15.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-16.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-17.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-18.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-19.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-20.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-21.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-22.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   },
+   {
+    "t": 11,
+    "op": "add",
+    "src": "http://127.0.0.1:4201/card-23.png"
+   }
+  ]
+ }
+}

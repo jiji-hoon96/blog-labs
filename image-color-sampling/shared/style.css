@@ -1,0 +1,6 @@
+body { margin: 0; font: 16px/1.5 system-ui, sans-serif; }
+.hero { height: 700px; display: grid; place-items: center; background: #1b64da; color: #fff; font-size: 40px; }
+.grid { display: grid; grid-template-columns: repeat(3, 302px); gap: 60px 40px; justify-content: center; padding: 60px 0; }
+.card { display: block; height: 320px; border-radius: 16px; background: #eee; color: #222; text-decoration: none; overflow: hidden; }
+.card img { display: block; width: 302px; height: 170px; object-fit: cover; }
+.card span { display: block; padding: 16px; }

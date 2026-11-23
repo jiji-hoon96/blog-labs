@@ -78,3 +78,7 @@ node scripts/rendered-fonts.mjs
 
 - `results/2026-10-26-round2-fast4g-run1.json` 은 재배포 직후라 edge 캐시가 비어 있었다. 비교에는 `-warm.json`(예열 6회)과 `-cd.json`(C, D, D-range)을 쓴다. 두 파일 모두 회차마다 `edgeMissAll` 이 있어 edge 가 원본까지 간 응답을 가려낼 수 있다
 - `next-font-app/build.mjs` 는 `--webpack` 으로 빌드한다. 16.3.4 의 Turbopack 빌드는 `adjustFontFallback: false` 를 줘도 대체 글꼴 규칙을 남겼다
+
+## image-color-sampling
+
+카드 배경색을 썸네일 픽셀 하나에서 읽는 페이지가 첫 화면에서 얼마나 받는지 잰다. 원본에서 읽기, 작은 썸네일에서 읽기, 미리 계산한 색 쓰기 세 변형이고, DevTools Network 패널의 Initiator 와 Disable cache 가 각각 무엇을 보여 주는지 확인한다. 자세한 것은 폴더의 README.
